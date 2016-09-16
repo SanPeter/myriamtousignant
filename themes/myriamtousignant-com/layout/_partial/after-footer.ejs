@@ -1,0 +1,73 @@
+<script type="text/javascript">
+//<![CDATA[
+
+jQuery(window).load(function() {			
+	jQuery('.flexslider').flexslider({
+		slideshowSpeed: 6000,  		
+		slideshow: 1,				 				
+		animation: 'fade',
+		animationLoop: true,
+		controlNav: true,  
+		smoothHeight: false,           
+		directionNav: true,
+		pauseOnAction: true,            
+		pauseOnHover: false,            
+		useCSS: true,                   
+		touch: true,                  
+		video: false
+	});  
+});
+
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+jQuery(window).load(function(){	
+	
+	jQuery('#content .posts').infinitescroll({
+
+		navSelector  : "div.pagination",	                   
+		nextSelector : "div.pagination a:first",	                  
+		itemSelector : "#content div.post",		
+		behavior : "twitter",		
+		loading: {
+			finishedMsg: "Nothing to load.",
+			img: "",
+			msgText: "Loading..."
+		},
+		errorCallback: function() {		
+			jQuery('.infscrBtn').animate({opacity: 0.8},2000).fadeOut('normal');
+		}},			
+		function( newElements ) {
+			var newElems = jQuery(newElements);
+			newElems.hide();
+			newElems.imagesLoaded(function(){
+				newElems.fadeIn('slow');
+			});
+			jQuery('.infscrBtn span').text("Load More"); 	
+		}
+	);
+	
+	jQuery(window).unbind('.infscr');
+	
+	jQuery('.post').css("display: none;");
+	
+	// hook up the manual click.
+	jQuery('.infscrBtn').click(function(){
+		jQuery('#content .posts').infinitescroll('retrieve');
+		jQuery('.infscrBtn span').text("Loading..."); 		   
+	});	
+	
+	
+});
+
+//]]>
+</script>
+
+<script type='text/javascript' src='/wp-content/themes/infinitythemetrust/js/jquery.prettyPhoto.js?ver=3.1.2'></script>
+<script type='text/javascript' src='/wp-content/themes/infinitythemetrust/js/jquery.isotope.min.js?ver=1.3.110525'></script>
+<script type='text/javascript' src='/wp-content/themes/infinitythemetrust/js/jquery.flexslider-min.js?ver=1.7'></script>
+<script type='text/javascript' src='/wp-content/themes/infinitythemetrust/js/jquery.infinitescroll.min.js?ver=2.0'></script>
+<script type='text/javascript' src='/wp-content/themes/infinitythemetrust/js/theme_trust.js?ver=1.0'></script>
