@@ -1,9 +1,9 @@
 livre-1:
 	titre: 'Livre 1'
-	url: '/'
+	url: '/livres-artiste/livre-1'
 	image: 'http://placehold.it/220x170'
 livre-2:
 	titre: 'Livre 2'
-	url: '/'
+	url: '/livres-artiste/livre-2'
 	image: 'http://placehold.it/220x170'
 
