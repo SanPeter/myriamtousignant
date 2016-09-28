@@ -1,7 +1,7 @@
 title: Livrets Arprim 
 layout: projets
 ---
-<h1>Livrets arprim</h1><small>(2015)</small>
+<h1>Série - Les formes</h1><small>(2016)</small>
 <div class="projectNav clearfix"><div class="previous inactive"></div><div class="next"><a href="/livres-artiste/livre-maskipeche" rel="prev">1</a></div></div> <!-- end navigation -->
 <div id="content">
 	<div class="project clearfix">
@@ -25,7 +25,8 @@ layout: projets
 			</div><br />
 			<div class="one_half">
 				<p>
-					Production 2015<br />
+					Série - Les formes: Triangle isocèle et Losange<br/>
+					Production 2016<br />
 					crédit photo : Eric St-Pierre
 				</p>
 			</div>
