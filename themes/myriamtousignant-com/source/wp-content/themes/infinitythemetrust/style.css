@@ -424,13 +424,18 @@ a.button, #footer a.button {
 	padding: 0;
 }
 
+#logo a {
+	color: #575757;
+}
+
 #logo h1 {
 	margin: 0 !important;
 	line-height: 1em !important;
 	padding: 0 !important;	
-	font-size: 1.5em;
+	font-size: 4em;
 	font-weight: bold;		
 	color: #575757;		
+	font-family: 'Roboto'
 }
 
 #header h1 {
