@@ -1,0 +1,11 @@
+<!-- begin navigation -->
+<div class="projectNav clearfix">
+  <div class="previous ">
+    <a href="<%- previouslink %>" rel="prev">1</a>
+  </div>
+  <div class="next <% if(nextlink == undefined) {%>inactive<%}%>">
+     <% if(nextlink != undefined) {%><a href="<%- nextlink %>" rel="next">1</a><%}%>
+  </div>
+</div> 
+<!-- end navigation -->
+
