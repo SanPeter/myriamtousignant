@@ -1,25 +1,23 @@
-title: index
+title: Liens sacrés, Portraits de femmes / CDEx
+year: 2012
 layout: projets
+previouslink: /projects/lebestiaire/
+nextlink: /projects/series-liens-sacres-portraits-de-femmes/
+slides:
+  - /wp-content/uploads/2013/05/Ensemble-jaunes.png
+  - /wp-content/uploads/2012/05/Ensemble-jaunes.png
+  - /wp-content/uploads/2012/05/Maman-jaune.png
+  - /wp-content/uploads/2013/05/Martine-puff.png
+  - /wp-content/uploads/2013/05/texture-Martine.png
+  - /wp-content/uploads/2013/05/Grille-CDEx.png
+  - /wp-content/uploads/2013/05/Web-Julie-S.png
+  - /wp-content/uploads/2013/05/Web-Julie-1.png
+  - /wp-content/uploads/2013/05/Web-Julie-G.png
+  - /wp-content/uploads/2013/05/Gros-plan-julie-g.png
+  - /wp-content/uploads/2013/05/Serie-puff.png
+  - /wp-content/uploads/2013/05/Serie-Puff-2.png
+  - /wp-content/uploads/2013/05/Maman-puff.png
 ---
-<h1>Liens sacrés, Portraits de femmes / CDEx</h1><small>(2012)</small>
-<div class="projectNav clearfix"><div class="previous "><a href="/projects/lebestiaire/" rel="prev">1</a></div><div class="next "><a href="/projects/series-liens-sacres-portraits-de-femmes/" rel="next">1</a></div></div> <!-- end navigation -->
-<div id="content">			
-			<div class="project clearfix">   						
-				<div class="slideshow"><div class="flexslider"><ul class="slides">
-<li><img src="/wp-content/uploads/2013/05/Ensemble-jaunes.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-217" /></li>
-<li><img src="/wp-content/uploads/2012/05/Ensemble-jaunes.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-222" /></li>
-<li><img src="/wp-content/uploads/2012/05/Maman-jaune.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-223" /></li>
-<li><img src="/wp-content/uploads/2013/05/Martine-puff.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-231" /></li>
-<li><img src="/wp-content/uploads/2013/05/texture-Martine.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-232" /></li>
-<li><img src="/wp-content/uploads/2013/05/Grille-CDEx.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-218" /></li>
-<li><img src="/wp-content/uploads/2013/05/Web-Julie-S.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-216" /></li>
-<li><img src="/wp-content/uploads/2013/05/Web-Julie-1.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-215" /></li>
-<li><img src="/wp-content/uploads/2013/05/Web-Julie-G.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-235" /></li>
-<li><img src="/wp-content/uploads/2013/05/Gros-plan-julie-g.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-230" /></li>
-<li><img src="/wp-content/uploads/2013/05/Serie-puff.png" alt="Serie-puff" width="720" height="496" class="alignnone size-full wp-image-263" /></li>
-<li><img src="/wp-content/uploads/2013/05/Serie-Puff-2.png" alt="Serie-Puff-#2" width="720" height="496" class="alignnone size-full wp-image-262" /></li>
-<li><img src="/wp-content/uploads/2013/05/Maman-puff.png" alt="Liens sacrés, Portraits de femmes" width="720" height="496" class="alignnone size-full wp-image-224" /></li>
-</ul></div></div>
 <p>Liens sacrés, portraits de femmes<br />
 Présenté au CDEx (centre de diffusion et d&rsquo;expérimentation), 15 oct au 20 oct 2012<br />
 Sérigraphie sur papier peint et tissus, 30 X 30 cm<br />
