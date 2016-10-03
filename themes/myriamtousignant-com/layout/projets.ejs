@@ -6,7 +6,6 @@
       <div id="pageHead">
         <h1><%- page.title %></h1>
         <small>(<%- page.year %>)</small>
-<!--        <div class="projectNav clearfix"><div class="previous "><a href="<%- page.previouslink %>" rel="prev">1</a></div><div class="next inactive"></div></div>-->
         <%- partial('_partial/navigation.ejs', {previouslink: page.previouslink, nextlink: page.nextlink}) %> 
         <div id="content">
           <div class="project clearfix">
