@@ -1,19 +1,17 @@
-title: index
+title: Extase à emporter
+year: 2012
 layout: projets
+previouslink: /projects/series-liens-sacres-portraits-de-femmes/
+nextlink: /projects/liens-sacres-portraits-de-femmes/
+slides:
+  - /wp-content/uploads/2013/05/Extase-3.png
+  - /wp-content/uploads/2013/05/Extase-10.png
+  - /wp-content/uploads/2013/05/Extase-5.png
+  - /wp-content/uploads/2013/05/EXTASE-6.png
+  - /wp-content/uploads/2013/05/Extase-4.png
+  - /wp-content/uploads/2013/05/Extase-9.png
+  - /wp-content/uploads/2013/05/Extase-7.png
 ---
-<h1>Extase à emporter</h1><small>(2012)</small>
-<div class="projectNav clearfix"><div class="previous "><a href="/projects/series-liens-sacres-portraits-de-femmes/" rel="prev">1</a></div><div class="next "><a href="/projects/liens-sacres-portraits-de-femmes/" rel="next">1</a></div></div> <!-- end navigation -->
-<div id="content">			
-			<div class="project clearfix">   						
-				<div class="slideshow"><div class="flexslider"><ul class="slides">
-<li><img src="/wp-content/uploads/2013/05/Extase-3.png" alt="Extase-#3" width="720" height="500" class="alignnone size-full wp-image-278" /></li>
-<li><img src="/wp-content/uploads/2013/05/Extase-10.png" alt="Extase-#10" width="720" height="500" class="alignnone size-full wp-image-295" /></li>
-<li><img src="/wp-content/uploads/2013/05/Extase-5.png" alt="Extase-#5" width="720" height="500" class="alignnone size-full wp-image-285" /></li>
-<li><img src="/wp-content/uploads/2013/05/EXTASE-6.png" alt="EXTASE-#6" width="720" height="500" class="alignnone size-full wp-image-286" /></li>
-<li><img src="/wp-content/uploads/2013/05/Extase-4.png" alt="Extase-#4" width="720" height="500" class="alignnone size-full wp-image-284" /></li>
-<li><img src="/wp-content/uploads/2013/05/Extase-9.png" alt="Extase-#9" width="720" height="500" class="alignnone size-full wp-image-289" /></li>
-<li><img src="/wp-content/uploads/2013/05/Extase-7.png" alt="Extase-#7" width="720" height="500" class="alignnone size-full wp-image-287" /></li>
-</ul></div></div>
 <p>Extase à emporter, exposition collective, 18 au 21 octobre 2012, Engramme<br />
 <em>Extasextase</em> ou  <em>Relecture de l&rsquo;extase de Sainte-Thérèse de Bernin</em>,<br />
 sérigraphie sur papier peint, 30 X 30 cm, 2012<br />

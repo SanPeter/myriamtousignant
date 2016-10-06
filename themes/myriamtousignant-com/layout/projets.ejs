@@ -1,13 +1,23 @@
-    <body class="single single-post single-format-standard bg_none ">
-        <div id="container" class="clearfix">
-            <%- partial('_partial/branding.ejs') %>
-            <%- partial('_partial/header.ejs') %>
-            <div id="main" class="clearfix">
-		<div id="pageHead">
-		<%- page.content %>
-	</div>	
-</div>    
-        <%- partial('_partial/footer') %>
-        </div><!-- end container -->
-        <%- partial('_partial/after-footer') %>
-    </body>
+<body class="single single-post single-format-standard bg_none ">
+  <div id="container" class="clearfix">
+    <%- partial('_partial/branding.ejs') %>
+    <%- partial('_partial/header.ejs') %>
+    <div id="main" class="clearfix">
+      <div id="pageHead">
+        <h1><%- page.title %></h1>
+        <small>(<%- page.year %>)</small>
+        <%- partial('_partial/navigation.ejs', {previouslink: page.previouslink, nextlink: page.nextlink}) %> 
+        <div id="content">
+          <div class="project clearfix">
+            <p>
+              <%- partial('_partial/slideshow.ejs', {slides: page.slides}) %>
+              <%- page.content %>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- partial('_partial/footer') %>
+  </div><!-- end container -->
+  <%- partial('_partial/after-footer') %>
+</body>

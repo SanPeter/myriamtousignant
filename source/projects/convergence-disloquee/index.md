@@ -1,13 +1,11 @@
-title: index
+title: Convergence disloquée
+year: 2008
+previouslink: /projects/le-corps-pictural/
+nextlink: 
 layout: projets
+slides:
+  - /wp-content/uploads/2013/05/Matane-Règnes-1.png
 ---
-<h1>Convergence disloquée</h1><small>(2008)</small>
-<div class="projectNav clearfix"><div class="previous inactive"></div><div class="next "><a href="/projects/le-corps-pictural/" rel="next">1</a></div></div> <!-- end navigation -->
-<div id="content">			
-			<div class="project clearfix">   						
-				<p><div class="slideshow"><div class="flexslider"><ul class="slides">
-<li><img src="/wp-content/uploads/2013/05/Matane-Règnes-1.png" alt="Matane-Règnes-#1" width="720" height="496" class="alignnone size-full wp-image-240" /></li>
-</ul></div></div><br />
 <div class="one_half"><p>
 Exposition collective, Galerie d&rsquo;Art de Matane, 26 juin au 28 août 2008<br />
 Série <em>Règnes</em>, Acrylique et huile sur bois, sérigraphie, 2006<br />
