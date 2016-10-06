@@ -4,7 +4,14 @@ previouslink: /projects/convergence-disloquee/
 nextlink: /projects/lebestiaire/
 layout: projets
 slides:
-  - /wp-content/uploads/2013/05/test-règnes.png
+  - /wp-content/uploads/2016/10/le-corps-pictural/le-corps-pictural-1.jpg
+  - /wp-content/uploads/2016/10/le-corps-pictural/le-corps-pictural-2.jpg
+  - /wp-content/uploads/2016/10/le-corps-pictural/le-corps-pictural-3.jpg
+  - /wp-content/uploads/2016/10/le-corps-pictural/le-corps-pictural-4.jpg
+  - /wp-content/uploads/2016/10/le-corps-pictural/le-corps-pictural-5.jpg
+  - /wp-content/uploads/2016/10/le-corps-pictural/le-corps-pictural-6.jpg
+  - /wp-content/uploads/2016/10/le-corps-pictural/le-corps-pictural-7.jpg
+  - /wp-content/uploads/2016/10/le-corps-pictural/le-corps-pictural-8.jpg
 ---
 <p>Le corps pictural<br />
 Exposition de Julien Boily et Myriam Tousignant, 30 janvier au 7 mars 2009<br />

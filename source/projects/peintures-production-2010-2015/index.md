@@ -2,7 +2,7 @@ title: Peintures &#8211; Production 2010 / 2015
 layout: projets
 year: 2015
 previouslink: /projects/liens-sacres-portraits-de-femmes/
-nextlink: /projects/fac2016/ 
+nextlink: /projects/peintures-production-2015-2016/ 
 slides:
   - /wp-content/uploads/2015/10/toiles-8.jpg
   - /wp-content/uploads/2015/10/toiles-7.jpg
