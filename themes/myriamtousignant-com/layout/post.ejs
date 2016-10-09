@@ -1,16 +1,17 @@
-    <body class="single single-post single-format-standard bg_none ">
-        <div id="container" class="clearfix">
-            <%- partial('_partial/branding.ejs') %>
-            <%- partial('_partial/header.ejs') %>
-            <div id="main" class="clearfix">
-<div id="pageHead">
-    <h1>Publications</h1>
-</div>
-<div id="content">
-    <%- page.content %>
-</div>
-            </div>    
+<body class="single single-post single-format-standard bg_none ">
+    <div id="container" class="clearfix">
+        <%- partial('_partial/branding.ejs') %>
+        <%- partial('_partial/header.ejs') %>
+        <div id="main" class="clearfix">
+            <div id="pageHead">
+                <h1>Publications</h1>
+            </div>
+            <div id="content">
+                <%- partial('_partial/social-icons.ejs') %>
+               <%- page.content %>
+            </div>
+        </div>    
         <%- partial('_partial/footer') %>
-        </div><!-- end container -->
-        <%- partial('_partial/after-footer') %>
-    </body>
+    </div><!-- end container -->
+    <%- partial('_partial/after-footer') %>
+</body>

@@ -1,0 +1,12 @@
+<script>
+function openModal(url) {
+    window.open(url, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); 
+}
+</script>
+
+<ul class="soc">
+    <li><a class="soc-facebook" title="Facebook" href="https://www.facebook.com/sharer/sharer.php?u=<%= encodeURIComponent(url) %>" onclick="openModal(this.href); return false;"></a></li>
+    <li><a class="soc-twitter" title="Twitter" href="https://twitter.com/home?status=<%= encodeURIComponent(url) %>" onclick="openModal(this.href);return false;"></a></li>
+</ul>
+<p><%= page.path %></p>
+<div class="clearfix"></div>
