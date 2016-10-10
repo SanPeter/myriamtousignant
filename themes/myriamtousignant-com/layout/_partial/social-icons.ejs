@@ -6,7 +6,6 @@ function openModal(url) {
 
 <ul class="soc">
     <li><a class="soc-facebook" title="Facebook" href="https://www.facebook.com/sharer/sharer.php?u=<%= encodeURIComponent(url) %>" onclick="openModal(this.href); return false;"></a></li>
-    <li><a class="soc-twitter" title="Twitter" href="https://twitter.com/home?status=<%= encodeURIComponent(url) %>" onclick="openModal(this.href);return false;"></a></li>
+    <li><a class="soc-twitter" title="Twitter" href="https://twitter.com/intent/tweet?<% if(page.og_description !== undefined) {%>text=<%= page.og_description %>&<%}%>url=<%= encodeURIComponent(url) %>" onclick="openModal(this.href);return false;"></a></li>
 </ul>
-<p><%= page.path %></p>
 <div class="clearfix"></div>

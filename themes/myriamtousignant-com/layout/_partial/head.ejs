@@ -1,6 +1,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Myriam Tousignant</title>
+	
+	<meta property="og:url" content="<%= url %>"></meta>
+	<meta property="og:title" content="<%= page.title %>"></meta>	
+	<meta property="og:type" content="article"></meta>
+	<meta property="og:description" content="<% if(page.og_description !== undefined) {%> <%=page.og_description%> <%}%>"></meta>
 
 	<link rel="stylesheet" href="/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=2.8.1" type="text/css" media="all" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">

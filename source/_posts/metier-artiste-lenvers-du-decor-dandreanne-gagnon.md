@@ -13,6 +13,7 @@ categories:
   - nouvelles
 date: 2016-08-27 09:49:02
 layout: post
+og_description: Métier artiste - l'envers du décor d'Andréanne Gagnon
 ---
 
 **Août 2016**
