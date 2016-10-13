@@ -11,6 +11,7 @@ categories:
   - nouvelles
 date: 2016-06-05 09:01:11
 layout: post 
+og_description: « J'ai vu que même si tes oeuvres voyagent beaucoup, tu ne peux pas vraiment vivre de ça...»
 ---
 
 **Mai 2016**

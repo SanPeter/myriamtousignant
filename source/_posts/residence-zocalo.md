@@ -12,6 +12,7 @@ categories:
   - nouvelles
 date: 2015-10-18 18:22:03
 layout: post
+og_description: Présentation publique de projets de livres d'artistes
 ---
 
 Présentation publique de projets de livres d'artistes

@@ -12,6 +12,7 @@ categories:
   - nouvelles
 date: 2016-10-06 09:49:02
 layout: post
+og_description: « Pendant de longues années, je me sentais comme une intruse dans les métiers d'arts...»
 ---
 
 **Septembre 2016**
