@@ -13,6 +13,7 @@ categories:
   - nouvelles
 date: 2016-08-27 09:49:02
 layout: post
+og_description: « L'idée de créer cette série d'articles est née au contact d'Andréanne...»
 ---
 
 **Août 2016**

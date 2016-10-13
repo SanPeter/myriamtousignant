@@ -19,6 +19,7 @@
     "hexo-server": "^0.2.0"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
     "hexo-migrator-wordpress": "^0.1.2"
   }
 }

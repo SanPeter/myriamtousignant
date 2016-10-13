@@ -12,6 +12,7 @@ categories:
   - nouvelles
 date: 2016-03-26 09:08:24
 layout: post
+og_description: « Si la valeur du métier est proportionnelle au salaire accordé...»
 ---
 
 **Mars 2016**

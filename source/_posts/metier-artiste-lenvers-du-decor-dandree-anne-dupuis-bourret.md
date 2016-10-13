@@ -12,6 +12,7 @@ categories:
   - nouvelles
 date: 2016-05-01 10:31:36
 layout: post
+og_description: « À mon avis, les artistes qui réussissent le mieux dans ce milieu sont à l'image...»
 ---
 
 **Avril 2016**

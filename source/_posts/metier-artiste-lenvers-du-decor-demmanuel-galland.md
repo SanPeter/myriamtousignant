@@ -11,7 +11,8 @@ comment: false
 categories:
   - nouvelles
 date: 2016-08-14 19:02:16
-layout: 2016/08/14/metier-artiste-lenvers-du-decor-demmanuel-galland/index
+layout: post 
+og_description: « Un succès, c'est beaucoup de refus...»
 ---
 
 **Juillet 2016**
