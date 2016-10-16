@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var Hexo = require('hexo');
 var hexo = new Hexo(process.cwd(), {});
+var sass = require('gulp-sass');
 
 gulp.task('lftp-sync', ['hexo-generate'], function(cb) {
     const spawn = require('child_process').spawn;
@@ -29,4 +30,10 @@ gulp.task('hexo-generate', function(cb) {
         hexo.exit(err);
         cb(err);
     });
+});
+
+gulp.task('sass', function() {
+   return gulp.src('themes/myriamtousignant-com/stylesheets/main.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('themes/myriamtousignant-com/source/css/')); 
 });
