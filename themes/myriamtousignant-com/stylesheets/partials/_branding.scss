@@ -2,7 +2,7 @@
 $content-width: 62.5em;
 
 body {
-  padding-top: 135px;
+  padding-top: 110px;
   
   @media screen and (min-width: 400px) {
     padding-top: 80px;
@@ -22,6 +22,7 @@ h1 {
     left: 8px;
     top: 20px;
   } 
+  
   
   @media screen and (min-width: $content-width) {
     margin: {
@@ -48,5 +49,11 @@ header {
     font: {
       family: 'Roboto';
     };
+    padding: {
+      right: 50px;
+    };
+    @media screen and (min-width: 400x) {
+      padding-right: 0;
+    }
   }
 }

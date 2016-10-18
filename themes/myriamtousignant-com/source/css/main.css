@@ -8,7 +8,7 @@ Template:       infinitythemetrust
 */
 @import url("../infinitythemetrust/style.css");
 body {
-  padding-top: 135px; }
+  padding-top: 110px; }
   @media screen and (min-width: 400px) {
     body {
       padding-top: 80px; } }
@@ -41,7 +41,11 @@ header {
   transform: translateX(-50%); }
   header a {
     color: #575757;
-    font-family: 'Roboto'; }
+    font-family: 'Roboto';
+    padding-right: 50px; }
+    @media screen and (min-width: 400x) {
+      header a {
+        padding-right: 0; } }
 
 #commentForm {
   display: none; }
