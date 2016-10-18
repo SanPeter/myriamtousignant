@@ -1,11 +1,3 @@
-/*
-Theme Name:     Myriam Tousignant
-Description:    Child theme for Myriam Tousignant based on infinity by theme trust
-Author:         atelier oil and sugar
-Template:       infinitythemetrust
-
-(optional values you can add: Theme URI, Author URI, Version)
-*/
 @import url("../infinitythemetrust/style.css");
 body {
   padding-top: 110px; }
@@ -47,6 +39,14 @@ header {
       header a {
         padding-right: 0; } }
 
+/*
+Theme Name:     Myriam Tousignant
+Description:    Child theme for Myriam Tousignant based on infinity by theme trust
+Author:         atelier oil and sugar
+Template:       infinitythemetrust
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
 #commentForm {
   display: none; }
 
