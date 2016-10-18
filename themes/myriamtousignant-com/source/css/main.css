@@ -7,6 +7,42 @@ Template:       infinitythemetrust
 (optional values you can add: Theme URI, Author URI, Version)
 */
 @import url("../infinitythemetrust/style.css");
+body {
+  padding-top: 135px; }
+  @media screen and (min-width: 400px) {
+    body {
+      padding-top: 80px; } }
+
+h1 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #575757;
+  width: 100%;
+  margin-left: 8px;
+  margin-top: 20px; }
+  @media screen and (min-width: 62.5em) {
+    h1 {
+      margin-left: 0; } }
+
+header {
+  border-bottom: 1px solid #e3e2de;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 100%;
+  max-width: 60.5em;
+  z-index: 9999;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%); }
+  header a {
+    color: #575757;
+    font-family: 'Roboto'; }
+
 #commentForm {
   display: none; }
 
