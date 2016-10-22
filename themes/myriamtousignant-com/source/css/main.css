@@ -1,0 +1,351 @@
+@import url("../infinitythemetrust/style.css");
+body {
+  padding-top: 110px; }
+  @media screen and (min-width: 400px) {
+    body {
+      padding-top: 80px; } }
+
+h1 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #575757;
+  width: 100%;
+  margin-left: 8px;
+  margin-top: 20px; }
+  @media screen and (min-width: 62.5em) {
+    h1 {
+      margin-left: 0; } }
+
+header {
+  border-bottom: 1px solid #e3e2de;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 100%;
+  max-width: 60.5em;
+  z-index: 9999;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%); }
+  header a {
+    color: #575757;
+    font-family: 'Roboto';
+    padding-right: 50px; }
+    @media screen and (min-width: 400x) {
+      header a {
+        padding-right: 0; } }
+
+/*
+Theme Name:     Myriam Tousignant
+Description:    Child theme for Myriam Tousignant based on infinity by theme trust
+Author:         atelier oil and sugar
+Template:       infinitythemetrust
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+#commentForm {
+  display: none; }
+
+.projectNav div {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px; }
+
+.projectNav a {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px; }
+
+.category-presse-2 .footerBox {
+  display: none; }
+
+#logo {
+  margin: 20px 20px 0px 20px;
+  border-bottom: 1px solid #e3e2de !important;
+  padding-bottom: 20px; }
+
+#logo img {
+  max-width: 100%; }
+
+.home #content .project.small {
+  width: 100% !important;
+  max-width: 720px;
+  height: auto !important; }
+
+.home #content .project.small img {
+  width: 100%;
+  height: auto; }
+
+#content .project.small .title span {
+  padding: 20px 17px 12px 20px;
+  display: block;
+  margin: 125px auto;
+  width: 200px;
+  height: 30px;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 2em;
+  font-family: 'Roboto Condensed';
+  line-height: 1em; }
+
+.page-template-portfolio-php #content .project.small .title span, .archive #content .project.small .title span {
+  padding: 0;
+  display: block;
+  margin: 50px auto;
+  width: auto;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2em;
+  font-family: 'Roboto Condensed'; }
+
+.page-template-portfolio-php #content .project.small, .archive #content .project.small {
+  max-height: 140px; }
+
+#content .project.small .title {
+  background: rgba(81, 81, 81, 0.31); }
+
+.skillList li span a {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px; }
+
+.page #main, .error404 #main, .archive #main, .home #main {
+  border-bottom: none !important; }
+
+.page-template-portfolio-php .footerBox {
+  display: none; }
+
+#ttrust_recent_posts-2 h3 {
+  border-bottom: 1px solid #e3e2de !important; }
+
+#sideWidgets .widgetBox h3, #footer .widgetBox h3 {
+  font-size: 1.2em !important;
+  padding-bottom: 30px;
+  font-weight: normal; }
+
+.project {
+  width: 100%;
+  overlflow: hidden; }
+
+.outerwrap {
+  position: absolute;
+  overflow: hidden;
+  width: 100%; }
+
+.centerer {
+  float: left;
+  position: relative;
+  left: 50%; }
+
+.title-inner {
+  float: left;
+  position: relative;
+  left: -50%;
+  z-index: 10;
+  color: #fff; }
+
+.category-press-2, .category-presse-2 {
+  min-height: 0 !important; }
+
+.category-press-2 p, .category-presse-2 p {
+  margin: 0.5em 0 0 40px; }
+
+.category-press-2 a, .category-presse-2 a {
+  margin: 0 0 0.5em 0;
+  line-height: 30px; }
+
+#main {
+  margin-bottom: 0; }
+
+.press-icon {
+  float: left;
+  margin-right: 10px; }
+
+/* small menu ------------------------------------- */
+.navbar {
+  display: none; }
+
+.navbar .btn-navbar {
+  display: block;
+  float: right;
+  border: 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: transparent; }
+
+.nav-collapse {
+  clear: both; }
+
+.collapse {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  display: none;
+  margin-bottom: 20px; }
+
+.collapse ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #ccc; }
+
+.collapse li {
+  border-bottom: 1px solid #ccc;
+  float: none;
+  background: transparent;
+  display: block;
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s; }
+
+.collapse li a {
+  display: block;
+  color: inherit;
+  padding: 10px;
+  transition: 0.2s;
+  -moz-transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s; }
+
+.collapse li a:hover {
+  color: inherit; }
+
+.collapse li:hover {
+  border-bottom: 1px solid #000; }
+
+.mini-nav-button-line {
+  width: 25px;
+  height: 4px;
+  background: #000;
+  margin-top: 4px;
+  display: block; }
+
+#main small {
+  color: #c2c2c2;
+  margin-top: 10px;
+  display: block; }
+
+.single-projects #main {
+  border-bottom: 0 !important; }
+
+/*  Responsive Design
+    Media Queries ----------------------------------- */
+@media screen and (max-width: 768px) {
+  .home #content .project.small {
+    height: 250px; }
+  #content .project.small .title span {
+    margin: 100px auto; }
+  .home #header #sideWidgets {
+    display: block;
+    width: 100%;
+    padding-top: 0; }
+  #icl_lang_sel_widget {
+    float: none; }
+  #mainNav {
+    position: relative;
+    top: 0;
+    margin-top: -10px; }
+  #ttrust_recent_posts-2 {
+    margin-bottom: 10px !important;
+    width: 100%; }
+  #header {
+    text-align: left;
+    width: 94%; }
+  #mainNav {
+    display: none; }
+  .navbar {
+    display: block; } }
+
+@media screen and (max-width: 480px) {
+  .home #content .project.small {
+    height: 200px; }
+  #content .project.small .title span {
+    margin: 50px auto; }
+  #footer .secondary {
+    padding-top: 10px; } }
+
+/* social icons */
+@font-face {
+  font-family: 'si';
+  src: url("/img/social-icons/socicon.eot");
+  src: url("/img/social-icons/socicon.eot?#iefix") format("embedded-opentype"), url("/img/social-icons/socicon.woff") format("woff"), url("/img/social-icons/socicon.ttf") format("truetype"), url("/img/social-icons/socicon.svg#icomoonregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: si;
+    src: url(social-icons/socicon.svg) format(svg); } }
+
+.soc {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.soc li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1; }
+
+.soc li a {
+  font-family: si !important;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -o-transition: .1s;
+  -ms-transition: .1s;
+  -moz-transition: .1s;
+  -webkit-transition: .1s;
+  transition: .1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 17px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  margin-right: 5px;
+  color: #ffffff;
+  background-color: #bf6a15; }
+
+.soc-icon-last {
+  margin: 0 !important; }
+
+.soc-facebook:before {
+  content: '\e041'; }
+
+.soc-twitter:before {
+  content: '\e040'; }
+
+#content ul.soc {
+  float: right;
+  margin: 0; }
+
+/* END social icons */
