@@ -24,7 +24,7 @@
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
-        "document"
+        "body"
       ],
       "readyEvent": null,
       "delay": 500,
