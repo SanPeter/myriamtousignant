@@ -2,7 +2,8 @@ test:
   pre:
     - hexo clean
     - hexo generate
-    - hexo server --port 8082
+    - hexo server --port 8082:
+        background: true
     - curl --retry 10 --retry-delay 2 -v http://localhost:8082
   override:
     - backstop test
