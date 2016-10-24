@@ -11,3 +11,7 @@ test:
     - backstop test
     - mkdir -p $CIRCLE_TEST_REPORTS
     - cp ./backstop_data/ci_report/* $CIRCLE_TEST_REPORTS/
+
+general:
+  artifacts:
+    - "backstop_data/bitmaps_test"
