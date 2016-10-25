@@ -7,14 +7,18 @@ test:
         background: true
     - curl --retry 10 --retry-delay 2 -v http://localhost:8082
   override:
-    - backstop test
     - mkdir -p $CIRCLE_TEST_REPORTS
-    - cp ./backstop_data/ci_report/* $CIRCLE_TEST_REPORTS/
+    - backstop test --configPath=backstop-pages.json
+    - cp ./backstop_data/ci_report_pages/* $CIRCLE_TEST_REPORTS/
+    - backstop test --configPath=backstop-projets.json
+    - cp ./backstop_data/ci_report_projets/* $CIRCLE_TEST_REPORTS/
+    - backstop test --configPath=backstop-posts.json
+    - cp ./backstop_data/ci_report_posts/* $CIRCLE_TEST_REPORTS/
 
-general:
-  artifacts:
-    - "backstop_data/bitmaps_test"
-    #- "public/"
+#general:
+#  artifacts:
+#    - "backstop_data/bitmaps_test"
+#    - "public/"
 
 deployment:
   staging:
