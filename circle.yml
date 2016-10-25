@@ -14,7 +14,7 @@ test:
 general:
   artifacts:
     - "backstop_data/bitmaps_test"
-    - "public/"
+    #- "public/"
 
 deployment:
   staging:
