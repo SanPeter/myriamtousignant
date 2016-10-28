@@ -1,0 +1,29 @@
+test:
+  pre:
+    - hexo clean
+    - gulp sass
+    - hexo generate
+    - npm run serve:
+        background: true
+    - curl --retry 10 --retry-delay 2 -v http://localhost:8082
+  override:
+    - mkdir -p $CIRCLE_TEST_REPORTS
+    - backstop test --configPath=backstop-pages.json
+    - cp ./backstop_data/ci_report_pages/* $CIRCLE_TEST_REPORTS/
+    - backstop test --configPath=backstop-projets.json
+    - cp ./backstop_data/ci_report_projets/* $CIRCLE_TEST_REPORTS/
+    - backstop test --configPath=backstop-posts.json
+    - cp ./backstop_data/ci_report_posts/* $CIRCLE_TEST_REPORTS/
+
+#general:
+#  artifacts:
+#    - "backstop_data/bitmaps_test"
+#    - "public/"
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - sudo apt-get install lftp
+      - lftp -c "set ftp:ssl-allow false;set ftp:list-options -a;open $FTP_URL;lcd ./public;cd $REMOTE_PATH;mirror --reverse --use-cache --verbose --allow-chown --allow-suid --no-umask --parallel=2 --only-newer --ignore-time --exclude-glob .git;"
+ 

@@ -4,7 +4,7 @@ previouslink: /projects/le-corps-pictural/
 nextlink: 
 layout: projets
 slides:
-  - /wp-content/uploads/2013/05/Matane-Règnes-1.png
+  - /wp-content/uploads/2013/05/Matane-Regnes-1.png
 ---
 <div class="one_half"><p>
 Exposition collective, Galerie d&rsquo;Art de Matane, 26 juin au 28 août 2008<br />
