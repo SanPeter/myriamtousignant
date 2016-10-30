@@ -1,7 +1,18 @@
-var gulp = require('gulp');
-var Hexo = require('hexo');
-var hexo = new Hexo(process.cwd(), {});
-var sass = require('gulp-sass');
+var 
+    spawn = require('child_process').spawn,
+    async = require('async'),
+    
+    gulp = require('gulp'),
+    connect = require('gulp-connect'),
+    sass = require('gulp-sass'),
+    tap = require('gulp-tap'),
+    
+    Hexo = require('hexo'),
+    hexo = new Hexo(process.cwd(), {}),
+    
+    port = 8082,
+    rootPath = 'public',
+    backstopTestSuites = 'test/backstop/**/*.json';
 
 gulp.task('lftp-sync', ['hexo-generate'], function(cb) {
     const spawn = require('child_process').spawn;
@@ -36,4 +47,43 @@ gulp.task('sass', function() {
    return gulp.src('themes/myriamtousignant-com/stylesheets/main.scss')
     .pipe(sass())
     .pipe(gulp.dest('themes/myriamtousignant-com/source/css/')); 
+});
+
+gulp.task('test', function(done){
+    var 
+        files = [],
+        
+        backstop = function backstop(file, callback){
+            spawn('backstop', [
+                'test',
+                '--configPath=' + file.path
+            ], {'stdio' : 'inherit'})
+            .on('close', function(code) {
+                callback(null, code === 0);
+            });
+        };
+            
+    connect.server({ 
+        port: port,
+        root: rootPath
+    });
+    
+    gulp.src([backstopTestSuites])
+        .pipe(tap(function(file){
+            files.push(file);
+        }))
+        .on('end', function() {
+            async.rejectSeries(files, function(file, finished) {
+                backstop(file, finished); 
+            }, function(errors) {
+                connect.serverClose();
+                if(errors && errors.length > 0) {
+                    done('Backstop reported failed tests ' + (errors.map(function(f) {
+                     return f.relative;
+                    }).join(', ')));
+                } else {
+                    done();
+                }
+            });
+        });
 });
