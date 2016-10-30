@@ -1,0 +1,92 @@
+{
+  "id": "deploy_test",
+  "viewports": [
+    {
+      "name": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "name": "tablet_v",
+      "width": 568,
+      "height": 1024
+    },
+    {
+      "name": "tablet_h",
+      "width": 1024,
+      "height": 768
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "homepage",
+      "url": "http://localhost:8082/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "body"
+      ],
+      "readyEvent": null,
+      "delay": 0,
+      "misMatchThreshold" : 0.1,
+      "onBeforeScript": null,
+      "onReadyScript": null
+    },
+    {
+      "label": "biographie-demarche-2",
+      "url": "http://localhost:8082/biographie-demarche-2/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "body"
+      ],
+      "readyEvent": null,
+      "delay": 0,
+      "misMatchThreshold" : 0.1,
+      "onBeforeScript": null,
+      "onReadyScript": null
+    },
+    {
+      "label": "presse-2",
+      "url": "http://localhost:8082/presse-2/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "body"
+      ],
+      "readyEvent": null,
+      "delay": 0,
+      "misMatchThreshold" : 0.1,
+      "onBeforeScript": null,
+      "onReadyScript": null
+    },
+    {
+      "label": "publications",
+      "url": "http://localhost:8082/publications/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "body"
+      ],
+      "readyEvent": null,
+      "delay": 0,
+      "misMatchThreshold" : 0.1,
+      "onBeforeScript": null,
+      "onReadyScript": null
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference_pages",
+    "bitmaps_test": "backstop_data/bitmaps_test_pages",
+    "casper_scripts": "backstop_data/casper_scripts",
+    "html_report": "backstop_data/html_report_pages",
+    "ci_report": "backstop_data/ci_report_pages"
+  },
+  "ci": {
+    "testReportFileName": "xunit-pages"
+  },
+  "casperFlags": [],
+  "engine": "phantomjs",
+  "report": ["CI"],
+  "debug": false
+}

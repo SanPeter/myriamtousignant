@@ -8,11 +8,11 @@ test:
     - curl --retry 10 --retry-delay 2 -v http://localhost:8082
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS
-    - backstop test --configPath=backstop-pages.json
+    - backstop test --configPath=test/backstop/backstop-pages.json
     - cp ./backstop_data/ci_report_pages/* $CIRCLE_TEST_REPORTS/
-    - backstop test --configPath=backstop-projets.json
+    - backstop test --configPath=test/backstop/backstop-projets.json
     - cp ./backstop_data/ci_report_projets/* $CIRCLE_TEST_REPORTS/
-    - backstop test --configPath=backstop-posts.json
+    - backstop test --configPath=test/backstop/backstop-posts.json
     - cp ./backstop_data/ci_report_posts/* $CIRCLE_TEST_REPORTS/
 
 #general:
