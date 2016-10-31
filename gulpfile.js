@@ -18,6 +18,45 @@ var
     backstopTestHtmlReports = 'backstop_data/html_report**/**',
     backstopTestCIReports = 'backstop_data/ci_report**/**';
 
+function backstopRunner(task, done) {
+    var 
+        files = [],
+        
+        backstop = function backstop(file, callback){
+            spawn('backstop', [
+                task,
+                '--configPath=' + file.path
+            ], {'stdio' : 'inherit'})
+            .on('close', function(code) {
+                callback(null, code === 0);
+            });
+        };
+            
+    connect.server({ 
+        port: port,
+        root: rootPath
+    });
+    
+    gulp.src([backstopTestSuites])
+        .pipe(tap(function(file){
+            files.push(file);
+        }))
+        .on('end', function() {
+            async.rejectSeries(files, function(file, finished) {
+                backstop(file, finished); 
+            }, function(errors) {
+                connect.serverClose();
+                if(errors && errors.length > 0) {
+                    done('Backstop reported failed tests ' + (errors.map(function(f) {
+                     return f.relative;
+                    }).join(', ')));
+                } else {
+                    done();
+                }
+            });
+        });
+} 
+
 gulp.task('backstop-clean', function(done) {
     del.sync([backstopTestBitmaps, backstopTestHtmlReports, backstopTestCIReports], function(err) {
         if(err) {
@@ -63,40 +102,9 @@ gulp.task('sass', function() {
 });
 
 gulp.task('test', function(done){
-    var 
-        files = [],
-        
-        backstop = function backstop(file, callback){
-            spawn('backstop', [
-                'test',
-                '--configPath=' + file.path
-            ], {'stdio' : 'inherit'})
-            .on('close', function(code) {
-                callback(null, code === 0);
-            });
-        };
-            
-    connect.server({ 
-        port: port,
-        root: rootPath
-    });
-    
-    gulp.src([backstopTestSuites])
-        .pipe(tap(function(file){
-            files.push(file);
-        }))
-        .on('end', function() {
-            async.rejectSeries(files, function(file, finished) {
-                backstop(file, finished); 
-            }, function(errors) {
-                connect.serverClose();
-                if(errors && errors.length > 0) {
-                    done('Backstop reported failed tests ' + (errors.map(function(f) {
-                     return f.relative;
-                    }).join(', ')));
-                } else {
-                    done();
-                }
-            });
-        });
+    backstopRunner('test', done);
+});
+
+gulp.task('reference', function(done){
+    backstopRunner('reference', done);
 });
