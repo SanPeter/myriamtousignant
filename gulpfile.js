@@ -19,13 +19,12 @@ var
     backstopTestCIReports = 'backstop_data/ci_report**/**';
 
 gulp.task('backstop-clean', function(done) {
-    del([backstopTestBitmaps, backstopTestHtmlReports, backstopTestCIReports], function(err) {
+    del.sync([backstopTestBitmaps, backstopTestHtmlReports, backstopTestCIReports], function(err) {
         if(err) {
             throw err;
-        } else {
-            done();
-        }
-    })
+        } 
+        done();
+    });
 });
 
 gulp.task('lftp-sync', ['hexo-generate'], function(cb) {
