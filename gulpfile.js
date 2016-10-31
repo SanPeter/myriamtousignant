@@ -1,6 +1,7 @@
 var 
     spawn = require('child_process').spawn,
     async = require('async'),
+    del = require('del'),
     
     gulp = require('gulp'),
     connect = require('gulp-connect'),
@@ -12,7 +13,20 @@ var
     
     port = 8082,
     rootPath = 'public',
-    backstopTestSuites = 'test/backstop/**/*.json';
+    backstopTestSuites = 'test/backstop/**/*.json',
+    backstopTestBitmaps = 'backstop_data/bitmaps_test*/**',
+    backstopTestHtmlReports = 'backstop_data/html_report**/**',
+    backstopTestCIReports = 'backstop_data/ci_report**/**';
+
+gulp.task('backstop-clean', function(done) {
+    del([backstopTestBitmaps, backstopTestHtmlReports, backstopTestCIReports], function(err) {
+        if(err) {
+            throw err;
+        } else {
+            done();
+        }
+    })
+});
 
 gulp.task('lftp-sync', ['hexo-generate'], function(cb) {
     const spawn = require('child_process').spawn;
