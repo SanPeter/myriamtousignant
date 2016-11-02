@@ -7,14 +7,8 @@
                 <h1>Publications</h1>
             </div>
             <div id="content">
+                <%- partial('_partial/social-icons.ejs') %>
                 <%- page.content %>
-                <% site.posts.sort('date').reverse().each(function(item) { %>
-                    <p>
-                        <strong><%- item.parution %></strong><br/>
-                	    <a href="<%- url_for(item.path) %>"><%- item.title %></a>
-            	    </p>
-                	<%- item.content %>
-                <% }); %>
             </div>
         </div>    
         <%- partial('_partial/footer') %>
