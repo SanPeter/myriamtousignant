@@ -3,7 +3,7 @@ title: Biographie & démarche
 id: 627
 comment: false
 date: 2013-05-08 21:02:36
-layout: post
+layout: biographie
 ---
 
 ![texture-bio-et-déamrche](/wp-content/uploads/2013/05/texture-bio-et-demarche.png)

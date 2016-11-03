@@ -8,7 +8,12 @@
             </div>
             <div id="content">
                 <%- partial('_partial/social-icons.ejs') %>
-               <%- page.content %>
+                <p>
+                    <strong><%- page.parution %></strong><br/>
+                    <a href="<%- page.external_url %>" target="_blank" rel="external"><%- page.title %></a>
+                </p>
+                <%- page.content %>
+                <p><a href="<%- page.external_url %>" target="_blank" rel="external"><% if(page.external_url_title !== undefined) {%> <%- page.external_url_title %> <%} else {%>Consulter l'article sur Baron Mag<%}%></a></p>
             </div>
         </div>    
         <%- partial('_partial/footer') %>
