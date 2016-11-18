@@ -48,7 +48,6 @@ function backstop(task, file, done){
         '--configPath=' + file.path
     ], {'stdio' : 'inherit'})
     .on('close', function(code) {
-        console.log('CODE: ' + code);
         done(code === 1);
     });
 };
@@ -71,7 +70,6 @@ function backstopRunner(task, done) {
             async.rejectSeries(files, function(file, finished) {
                 backstop(task, file, finished); 
             }, function(errors) {
-                console.log('ERRORS: ' + errors);
                 connect.serverClose();
                 done(errors);
             });
@@ -124,9 +122,7 @@ function deploy(done) {
 /* Regression tests */
 function test(){
     backstopRunner('test', function(errors) {
-        console.log('BackstopJS Return: ' + errors);
         if(errors) {
-            console.log('ERRORS');
             process.exit(1);
         }
     });
