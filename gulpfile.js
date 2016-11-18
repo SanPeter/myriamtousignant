@@ -132,6 +132,7 @@ function test(done){
         '--configPath=' + 'test/backstop/backstop-pages.json'
     ], {'stdio' : 'inherit'})
     .on('close', function(code) {
+        console.log('Backstop errorCode: ' + code);
         done(null, code === 0);
     });
 };
