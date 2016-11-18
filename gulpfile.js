@@ -126,5 +126,12 @@ function deploy(done) {
 
 /* Regression tests */
 function test(done){
-    backstopRunner('test', done);
+    //backstopRunner('test', done);
+    spawn('backstop', [
+        'test',
+        '--configPath=' + 'test/backstop/backstop-pages.json'
+    ], {'stdio' : 'inherit'})
+    .on('close', function(code) {
+        done(null, code === 0);
+    });
 };
