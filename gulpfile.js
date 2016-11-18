@@ -16,7 +16,8 @@ var
 
     lftpParams = ['-f', 'cmd-lftp'],
     
-    backstopTestSuites = 'test/backstop/**/*.json',
+    //backstopTestSuites = 'test/backstop/**/*.json',
+    backstopTestSuites = 'test/backstop/backstop-pages.json',
     backstopTestBitmaps = 'backstop_data/bitmaps_test*/**',
     backstopTestHtmlReports = 'backstop_data/html_report**/**',
     backstopTestCIReports = 'backstop_data/ci_report**/**',
@@ -32,7 +33,7 @@ gulp.task('clean', clean);
 gulp.task('sass', compile);
 gulp.task('generate', ['sass'], generate);
 gulp.task('deploy', ['generate'], deploy);
-gulp.task('test', test);
+gulp.task('test', ['clean', 'generate'], test);
 
 gulp.task('reference', function(done){
     backstopRunner('reference', done);
@@ -47,7 +48,8 @@ function backstop(task, file, done){
         '--configPath=' + file.path
     ], {'stdio' : 'inherit'})
     .on('close', function(code) {
-        done(null, code === 0);
+        console.log('CODE: ' + code);
+        done(code === 1);
     });
 };
 
@@ -69,21 +71,16 @@ function backstopRunner(task, done) {
             async.rejectSeries(files, function(file, finished) {
                 backstop(task, file, finished); 
             }, function(errors) {
+                console.log('ERRORS: ' + errors);
                 connect.serverClose();
-                if(errors && errors.length > 0) {
-                    done('Backstop reported failed tests ' + (errors.map(function(f) {
-                     return f.relative;
-                    }).join(', ')));
-                } else {
-                    done();
-                }
+                done(errors);
             });
         });
 } 
 
 /* Cleans the backstop working files */
-function clean(done) {
-    del([backstopTestBitmaps, backstopTestHtmlReports, backstopTestCIReports], done);
+function clean() {
+    return del([backstopTestBitmaps, backstopTestHtmlReports, backstopTestCIReports]);
 };
 
 /* Compile resources */
@@ -125,14 +122,12 @@ function deploy(done) {
 };
 
 /* Regression tests */
-function test(done){
-    //backstopRunner('test', done);
-    spawn('backstop', [
-        'test',
-        '--configPath=' + 'test/backstop/backstop-pages.json'
-    ], {'stdio' : 'inherit'})
-    .on('close', function(code) {
-        console.log('Backstop errorCode: ' + code);
-        done(null, code === 0);
+function test(){
+    backstopRunner('test', function(errors) {
+        console.log('BackstopJS Return: ' + errors);
+        if(errors) {
+            console.log('ERRORS');
+            process.exit(1);
+        }
     });
 };
