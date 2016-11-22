@@ -17,7 +17,6 @@ var
     lftpParams = ['-f', 'cmd-lftp'],
     
     backstopTestSuites = 'test/backstop/**/*.json',
-    //backstopTestSuites = 'test/backstop/backstop-pages.json',
     backstopTestBitmaps = 'backstop_data/bitmaps_test*/**',
     backstopTestHtmlReports = 'backstop_data/html_report**/**',
     backstopTestCIReports = 'backstop_data/ci_report**/**',

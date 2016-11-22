@@ -1,7 +1,6 @@
 test:
   pre:
     - hexo clean
-    - gulp generate
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS
     - gulp test
