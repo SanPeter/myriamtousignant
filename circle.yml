@@ -14,4 +14,7 @@ deployment:
     commands:
       - sudo apt-get install lftp
       - lftp -c "set ftp:ssl-allow false;set ftp:list-options -a;open $FTP_URL;lcd ./public;cd $REMOTE_PATH;mirror --reverse --use-cache --verbose --allow-chown --allow-suid --no-umask --parallel=2 --only-newer --ignore-time --exclude-glob .git;"
- 
+  staging:
+    branch: surge_sh-integration
+    commands:
+      - surge --project ./public --domain myriamtousignant-com.surge.sh 
