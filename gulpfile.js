@@ -13,29 +13,53 @@ var
     
     port = 8082,
     rootPath = 'public',
+
+    lftpParams = ['-f', 'cmd-lftp'],
+    
     backstopTestSuites = 'test/backstop/**/*.json',
     backstopTestBitmaps = 'backstop_data/bitmaps_test*/**',
     backstopTestHtmlReports = 'backstop_data/html_report**/**',
-    backstopTestCIReports = 'backstop_data/ci_report**/**';
+    backstopTestCIReports = 'backstop_data/ci_report**/**',
+    
+    sassFiles = {
+        src: 'themes/myriamtousignant-com/stylesheets/main.scss',    
+        dest: 'themes/myriamtousignant-com/source/css/'
+    };
+
+
+/* Tasks exposed to the CLI */
+gulp.task('clean', clean);
+gulp.task('sass', compile);
+gulp.task('generate', ['sass'], generate);
+gulp.task('deploy', ['generate'], deploy);
+gulp.task('test', ['clean', 'generate'], test);
+
+gulp.task('reference', function(done){
+    backstopRunner('reference', done);
+});
+
+/* Helper methods */
+
+/* BackstopJS wrapper */
+function backstop(task, file, done){
+    spawn('backstop', [
+        task,
+        '--configPath=' + file.path
+    ], {'stdio' : 'inherit'})
+    .on('close', function(code) {
+        done(code === 1);
+    });
+};
 
 function backstopRunner(task, done) {
-    var 
-        files = [],
+    var files = [];
         
-        backstop = function backstop(file, callback){
-            spawn('backstop', [
-                task,
-                '--configPath=' + file.path
-            ], {'stdio' : 'inherit'})
-            .on('close', function(code) {
-                callback(null, code === 0);
-            });
-        };
-            
+    /* TODO: need to move the server initialization into another task */
     connect.server({ 
         port: port,
         root: rootPath
     });
+    /* TODO */
     
     gulp.src([backstopTestSuites])
         .pipe(tap(function(file){
@@ -43,32 +67,42 @@ function backstopRunner(task, done) {
         }))
         .on('end', function() {
             async.rejectSeries(files, function(file, finished) {
-                backstop(file, finished); 
+                backstop(task, file, finished); 
             }, function(errors) {
                 connect.serverClose();
-                if(errors && errors.length > 0) {
-                    done('Backstop reported failed tests ' + (errors.map(function(f) {
-                     return f.relative;
-                    }).join(', ')));
-                } else {
-                    done();
-                }
+                done(errors);
             });
         });
 } 
 
-gulp.task('backstop-clean', function(done) {
-    del.sync([backstopTestBitmaps, backstopTestHtmlReports, backstopTestCIReports], function(err) {
-        if(err) {
-            throw err;
-        } 
-        done();
-    });
-});
+/* Cleans the backstop working files */
+function clean() {
+    return del([backstopTestBitmaps, backstopTestHtmlReports, backstopTestCIReports]);
+};
 
-gulp.task('lftp-sync', ['hexo-generate'], function(cb) {
+/* Compile resources */
+function compile() {
+   return gulp.src(sassFiles.src)
+    .pipe(sass())
+    .pipe(gulp.dest(sassFiles.dest)); 
+};
+
+/* Generate the Hexo site */
+function generate(done) {
+    hexo.init().then(function() {
+        hexo.call('generate', {watch: false}).then(function() {
+            done();
+        });
+    }).catch(function(err) {
+        hexo.exit(err);
+        done(err);
+    });
+};
+
+/* Deploy the site using lftp-sync */
+function deploy(done) {
     const spawn = require('child_process').spawn;
-    const lftp = spawn('lftp', ['-f', 'cmd-lftp']);
+    const lftp = spawn('lftp', lftpParams);
     
     lftp.stdout.on('data', (data) => {
         console.log(`${data}`);
@@ -80,31 +114,15 @@ gulp.task('lftp-sync', ['hexo-generate'], function(cb) {
     
     lftp.on('close', (code) => {
        console.log(`child process exited with code ${code}`) ;
-       cb(code);
+       done(code);
     });
-});
+};
 
-gulp.task('hexo-generate', function(cb) {
-    hexo.init().then(function() {
-        hexo.call('generate', {watch: false}).then(function() {
-            cb();
-        });
-    }).catch(function(err) {
-        hexo.exit(err);
-        cb(err);
+/* Regression tests */
+function test(){
+    backstopRunner('test', function(errors) {
+        if(errors) {
+            process.exit(1);
+        }
     });
-});
-
-gulp.task('sass', function() {
-   return gulp.src('themes/myriamtousignant-com/stylesheets/main.scss')
-    .pipe(sass())
-    .pipe(gulp.dest('themes/myriamtousignant-com/source/css/')); 
-});
-
-gulp.task('test', function(done){
-    backstopRunner('test', done);
-});
-
-gulp.task('reference', function(done){
-    backstopRunner('reference', done);
-});
+};

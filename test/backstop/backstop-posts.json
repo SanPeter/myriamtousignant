@@ -129,6 +129,20 @@
       "misMatchThreshold" : 0.1,
       "onBeforeScript": null,
       "onReadyScript": null
+    },
+    {
+      "label": "metier-artiste-lenvers-du-decor-de-jennifer-lupien",
+      "url": "http://localhost:8082/2016/10/06/metier-artiste-lenvers-du-decor-de-jennifer-lupien/",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        "body"
+      ],
+      "readyEvent": null,
+      "delay": 0,
+      "misMatchThreshold" : 0.1,
+      "onBeforeScript": null,
+      "onReadyScript": null
     }
   ],
   "paths": {
