@@ -12,6 +12,8 @@ deployment:
   production:
     branch: master
     commands:
-      - sudo apt-get install lftp
-      - lftp -c "set ftp:ssl-allow false;set ftp:list-options -a;open $FTP_URL;lcd ./public;cd $REMOTE_PATH;mirror --reverse --use-cache --verbose --allow-chown --allow-suid --no-umask --parallel=2 --only-newer --ignore-time --exclude-glob .git;"
- 
+      - surge --project ./public --domain myriamtousignant.com
+  staging:
+    branch: surge_sh-integration
+    commands:
+      - surge --project ./public --domain new.myriamtousignant.com
