@@ -17,4 +17,4 @@ deployment:
   staging:
     branch: surge_sh-integration
     commands:
-      - surge --project ./public --domain myriamtousignant-com.surge.sh 
+      - surge --project ./public --domain new.myriamtousignant.com
