@@ -6,6 +6,7 @@ var
     gulp = require('gulp'),
     connect = require('gulp-connect'),
     sass = require('gulp-sass'),
+    stylus = require('gulp-stylus'),
     tap = require('gulp-tap'),
     
     Hexo = require('hexo'),
@@ -24,13 +25,19 @@ var
     sassFiles = {
         src: 'themes/myriamtousignant-com/stylesheets/main.scss',    
         dest: 'themes/myriamtousignant-com/source/css/'
+    },
+    
+    stylusFiles = {
+        src: 'themes/myriamtousignant-com/stylesheets/main.styl',    
+        dest: 'themes/myriamtousignant-com/source/css/'
     };
 
 
 /* Tasks exposed to the CLI */
 gulp.task('clean', clean);
 gulp.task('sass', compile);
-gulp.task('generate', ['sass'], generate);
+gulp.task('stylus', compileStylus);
+gulp.task('generate', generate);
 gulp.task('deploy', ['generate'], deploy);
 gulp.task('test', ['clean', 'generate'], test);
 
@@ -126,3 +133,11 @@ function test(){
         }
     });
 };
+
+function compileStylus(){
+    return gulp.src(stylusFiles.src)
+        .pipe(stylus({
+           'include css': 'true'
+        }))
+        .pipe(gulp.dest(stylusFiles.dest));
+}

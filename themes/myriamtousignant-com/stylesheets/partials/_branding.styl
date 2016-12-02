@@ -1,4 +1,4 @@
-$content-width: 62.5em;
+$content-width = 62.5em;
 
 body {
   padding-top: 110px;
@@ -10,22 +10,16 @@ body {
 
 
 h1 {
-  font: {
-    family: 'Roboto';
-    weight: bold;
-    size: 2.5em;
-  }
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 2.5em;
   color: #575757;
   width: 100%;
-  margin: {
-    left: 8px;
-    top: 20px;
-  } 
+  margin-left: 8px;
+  margin-top: 20px;
   
   @media screen and (min-width: $content-width) {
-    margin: {
-      left: 0;
-    };
+    margin-left: 0;
   }
 }
 
@@ -39,16 +33,12 @@ header {
   max-width: 60.5em;
   z-index: 9999; 
 
-  @include transformTranslateX(-50%);
-  
+  transformTranslateX(-50%);
+
   a {
     color: #575757;
-    font: {
-      family: 'Roboto';
-    };
-    padding: {
-      right: 50px;
-    };
+    font-family: 'Roboto';
+    padding-right: 50px;
     @media screen and (min-width: 400x) {
       padding-right: 0;
     }
