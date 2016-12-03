@@ -52,6 +52,7 @@ module.exports = function(grunt){
     });
     
     grunt.registerTask('clean-all', ['clean', 'shell:hexo_clean']);
+    grunt.registerTask('generate', ['stylus', 'shell:hexo_generate']);
     
     grunt.registerTask('reference', [
         'connect:server',
@@ -60,6 +61,7 @@ module.exports = function(grunt){
         'shell:reference:test/backstop/backstop-projets.json'
     ]);
     grunt.registerTask('test', [
+        'generate',
         'connect:server',
         'shell:test:test/backstop/backstop-pages.json', 
         'shell:test:test/backstop/backstop-posts.json',
