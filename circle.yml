@@ -1,6 +1,6 @@
 test:
   pre:
-    - npm clean
+    - npm run clean
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS
     - npm test
