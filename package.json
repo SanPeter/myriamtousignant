@@ -24,8 +24,9 @@
     "backstopjs": "^2.0.6",
     "del": "^2.2.2",
     "grunt": "^1.0.1",
-    "grunt-backstop": "^0.1.6",
+    "grunt-contrib-connect": "^1.0.2",
     "grunt-contrib-stylus": "^1.2.0",
+    "grunt-shell": "^2.1.0",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
     "gulp-sass": "^2.3.2",
@@ -35,7 +36,10 @@
     "http-server": "^0.9.0"
   },
   "scripts": {
+    "clean": "grunt clean",
+    "generate": "grunt shell:hexo_generate",
+    "reference": "grunt reference",
     "serve": "http-server -p 8082 public/",
-    "generate": "gulp generate"
+    "test": "grunt test"
   }
 }
