@@ -1,5 +1,7 @@
 module.exports = function(grunt){
     grunt.initConfig({
+        clean: ['backstop_data/bitmaps_test*/**', 'backstop_data/html_report*/**', 'backstop_data/ci_report*/**'],
+        
         connect: {
             server: {
                 options: {
@@ -41,6 +43,7 @@ module.exports = function(grunt){
     });
     
     grunt.loadNpmTasks('grunt-shell');
+    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-stylus');
     
@@ -48,7 +51,7 @@ module.exports = function(grunt){
         grunt.log.writeln('default Grunt task');
     });
     
-    grunt.registerTask('clean', ['shell:hexo_clean']);
+    grunt.registerTask('clean-all', ['clean', 'shell:hexo_clean']);
     
     grunt.registerTask('reference', [
         'connect:server',
