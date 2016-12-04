@@ -1,9 +1,9 @@
 test:
   pre:
-    - hexo clean
+    - npm run clean
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS
-    - gulp test
+    - npm test
     - cp ./backstop_data/ci_report_pages/* $CIRCLE_TEST_REPORTS/
     - cp ./backstop_data/ci_report_projets/* $CIRCLE_TEST_REPORTS/
     - cp ./backstop_data/ci_report_posts/* $CIRCLE_TEST_REPORTS/
@@ -14,6 +14,6 @@ deployment:
     commands:
       - surge --project ./public --domain myriamtousignant.com
   staging:
-    branch: surge_sh-integration
+    branch: stylus-integration
     commands:
       - surge --project ./public --domain new.myriamtousignant.com
