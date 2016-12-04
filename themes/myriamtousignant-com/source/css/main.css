@@ -1767,7 +1767,7 @@ ol#commentslist {
 }
 
 
-/* line 297 : /home/ubuntu/workspace/themes/myriamtousignant-com/source/infinitythemetrust/style.css */
+/* line 971 : /home/ubuntu/workspace/themes/myriamtousignant-com/source/infinitythemetrust/style.css */
 
 /* line 1 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/modules/_mixins.styl */
 
@@ -1843,61 +1843,56 @@ header a {
 
 /* line 1 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 
-/* line 10 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
-#compile {
-  display: none;
-}
-
-/* line 14 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 9 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 #commentForm {
   display: none;
 }
 
-/* line 18 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 13 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .projectNav div {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
 }
 
-/* line 24 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 19 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .projectNav a {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
 }
 
-/* line 30 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 25 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .category-presse-2 .footerBox {
   display: none;
 }
 
-/* line 34 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 29 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 #logo {
   margin: 20px 20px 0px 20px;
   border-bottom: 1px solid #e3e2de !important;
   padding-bottom: 20px;
 }
 
-/* line 40 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 35 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 #logo img {
   max-width: 100%;
 }
 
-/* line 44 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 39 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .home #content .project.small {
   width: 100% !important;
   max-width: 720px;
   height: auto !important;
 }
 
-/* line 50 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 45 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .home #content .project.small img {
   width: 100%;
   height: auto;
 }
 
-/* line 55 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 50 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 #content .project.small .title span {
   padding: 20px 17px 12px 20px;
   display: block;
@@ -1911,7 +1906,7 @@ header a {
   line-height: 1em;
 }
 
-/* line 69 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 64 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .page-template-portfolio-php #content .project.small .title span,
 .archive #content .project.small .title span {
   padding: 0;
@@ -1925,25 +1920,25 @@ header a {
   font-family: 'Roboto Condensed';
 }
 
-/* line 81 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 76 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .page-template-portfolio-php #content .project.small,
 .archive #content .project.small {
   max-height: 140px;
 }
 
-/* line 85 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 80 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 #content .project.small .title {
   background: rgba(81,81,81,0.31);
 }
 
-/* line 89 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 84 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .skillList li span a {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
 }
 
-/* line 95 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 90 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .page #main,
 .error404 #main,
 .archive #main,
@@ -1951,17 +1946,17 @@ header a {
   border-bottom: none !important;
 }
 
-/* line 99 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 94 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .page-template-portfolio-php .footerBox {
   display: none;
 }
 
-/* line 103 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 98 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 #ttrust_recent_posts-2 h3 {
   border-bottom: 1px solid #e3e2de !important;
 }
 
-/* line 107 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 102 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 #sideWidgets .widgetBox h3,
 #footer .widgetBox h3 {
   font-size: 1.2em !important;
@@ -1969,27 +1964,27 @@ header a {
   font-weight: normal;
 }
 
-/* line 113 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 108 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .project {
   width: 100%;
   overlflow: hidden;
 }
 
-/* line 118 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 113 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .outerwrap {
   position: absolute;
   overflow: hidden;
   width: 100%;
 }
 
-/* line 124 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 119 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .centerer {
   float: left;
   position: relative;
   left: 50%;
 }
 
-/* line 130 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 125 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .title-inner {
   float: left;
   position: relative;
@@ -1998,42 +1993,42 @@ header a {
   color: #fff;
 }
 
-/* line 138 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 133 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .category-press-2,
 .category-presse-2 {
   min-height: 0 !important;
 }
 
-/* line 142 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 137 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .category-press-2 p,
 .category-presse-2 p {
   margin: 0.5em 0 0 40px;
 }
 
-/* line 146 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 141 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .category-press-2 a,
 .category-presse-2 a {
   margin: 0 0 0.5em 0;
   line-height: 30px;
 }
 
-/* line 151 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 146 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 #main {
   margin-bottom: 0;
 }
 
-/* line 155 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 150 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .press-icon {
   float: left;
   margin-right: 10px;
 }
 
-/* line 162 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 157 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .navbar {
   display: none;
 }
 
-/* line 166 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 161 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .navbar .btn-navbar {
   display: block;
   float: right;
@@ -2043,12 +2038,12 @@ header a {
   background: transparent;
 }
 
-/* line 175 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 170 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .nav-collapse {
   clear: both;
 }
 
-/* line 179 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 174 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .collapse {
   position: relative;
   overflow: hidden;
@@ -2061,7 +2056,7 @@ header a {
   margin-bottom: 20px;
 }
 
-/* line 191 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 186 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .collapse ul {
   list-style: none;
   margin: 0;
@@ -2069,7 +2064,7 @@ header a {
   border-top: 1px solid #ccc;
 }
 
-/* line 198 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 193 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .collapse li {
   border-bottom: 1px solid #ccc;
   float: none;
@@ -2081,7 +2076,7 @@ header a {
   -o-transition: 0.2s;
 }
 
-/* line 210 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 205 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .collapse li a {
   display: block;
   color: inherit;
@@ -2092,17 +2087,17 @@ header a {
   -o-transition: 0.2s;
 }
 
-/* line 220 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 215 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .collapse li a:hover {
   color: inherit;
 }
 
-/* line 224 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 219 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .collapse li:hover {
   border-bottom: 1px solid #000;
 }
 
-/* line 228 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 223 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .mini-nav-button-line {
   width: 25px;
   height: 4px;
@@ -2111,83 +2106,83 @@ header a {
   display: block;
 }
 
-/* line 236 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 231 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 #main small {
   color: #c2c2c2;
   margin-top: 10px;
   display: block;
 }
 
-/* line 242 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 237 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .single-projects #main {
   border-bottom: 0 !important;
 }
 @media screen and (max-width: 768px) {
 
-/* line 254 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 249 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   .home #content .project.small {
     height: 250px;
   }
 
-/* line 255 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 250 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   #content .project.small .title span {
     margin: 100px auto;
   }
 
-/* line 256 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 251 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   .home #header #sideWidgets {
     display: block;
     width: 100%;
     padding-top: 0;
   }
 
-/* line 257 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 252 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   #icl_lang_sel_widget {
     float: none;
   }
 
-/* line 258 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 253 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   #mainNav {
     position: relative;
     top: 0;
     margin-top: -10px;
   }
 
-/* line 259 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 254 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   #ttrust_recent_posts-2 {
     margin-bottom: 10px !important;
     width: 100%;
   }
 
-/* line 260 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 255 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   #header {
     text-align: left;
     width: 94%;
   }
 
-/* line 261 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 256 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   #mainNav {
     display: none;
   }
 
-/* line 262 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 257 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   .navbar {
     display: block;
   }
 }
 @media screen and (max-width: 480px) {
 
-/* line 266 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 261 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   .home #content .project.small {
     height: 200px;
   }
 
-/* line 267 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 262 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   #content .project.small .title span {
     margin: 50px auto;
   }
 
-/* line 268 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 263 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
   #footer .secondary {
     padding-top: 10px;
   }
@@ -2206,7 +2201,7 @@ header a {
   }
 }
 
-/* line 291 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 286 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .soc {
   overflow: hidden;
   margin: 0;
@@ -2214,14 +2209,14 @@ header a {
   list-style: none;
 }
 
-/* line 297 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 292 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .soc li {
   display: inline-block;
   *display: inline;
   zoom: 1;
 }
 
-/* line 303 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 298 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .soc li a {
   font-family: si !important;
   font-style: normal;
@@ -2260,22 +2255,22 @@ header a {
   background-color: #bf6a15;
 }
 
-/* line 343 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 338 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .soc-icon-last {
   margin: 0 !important;
 }
 
-/* line 347 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 342 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .soc-facebook:before {
   content: '\e041';
 }
 
-/* line 350 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 345 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 .soc-twitter:before {
   content: '\e040';
 }
 
-/* line 354 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
+/* line 349 : /home/ubuntu/workspace/themes/myriamtousignant-com/stylesheets/legacy.styl */
 #content ul.soc {
   float: right;
   margin: 0;

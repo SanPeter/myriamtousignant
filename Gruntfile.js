@@ -17,6 +17,7 @@ module.exports = function(grunt){
                   'include css': true,
                   compress: false,
                   linenos: true,
+                  'resolve url': true,
                   paths: ['themes/myriamtousignant-com/source/']
                 },
                 files: {
