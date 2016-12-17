@@ -1,0 +1,9 @@
+{
+    "name": "vendor/your-theme-name",
+    "description": "The description for your theme",
+    "license": "MIT",
+    "type": "spress-theme",
+    "require": {
+            "spress/spress-installer": "2.0.*"
+    }
+}
