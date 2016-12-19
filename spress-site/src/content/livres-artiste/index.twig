@@ -1,0 +1,32 @@
+---
+layout: 'layout'
+---
+{% block content %}
+<body class="page page-id-630 page-template page-template-portfolio-php bg_none ">
+	{% include('_partial/branding.twig') %}
+	<div id="container" class="clearfix">
+		{% include('_partial/header.twig') %}
+		<div id="main" class="clearfix">
+			<div id="pageHead">
+				<h1>Livres d'artiste</h1>
+			</div>
+			<div id="content" class="clearfix page page-id-630 page-template page-template-portfolio-php bg_none">
+				<div id="projects">
+					<div class="thumbs masonry">
+						{% for livre in  site.livres %}
+						<div class="project small">
+							<a href="{{ livre.url }}" rel="bookmark">
+								<img width="220" height="170" src="{{ livre.image }}" class="thumb wp-post-image" alt="{{ livre.titre }}" title="{{ livre.titre }}" />
+								<span class="title"><span>{{ livre.titre }}</span></span>
+							</a>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+		{% include('_partial/footer.twig') %}
+	</div><!-- end container -->
+	{% include('_partial/after-footer.twig') %}
+</body>
+{% endblock %}

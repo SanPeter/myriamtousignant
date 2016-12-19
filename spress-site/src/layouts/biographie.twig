@@ -1,0 +1,22 @@
+---
+layout: 'layout'
+---
+{% block content %}
+<body class="single single-post single-format-standard bg_none ">
+    {% include('_partial/branding.twig') %}
+    <div id="container" class="clearfix">
+        {% include('_partial/header.twig') %}
+        <div id="main" class="clearfix">
+            <div id="pageHead">
+                <h1>Publications</h1>
+            </div>
+            <div id="content">
+                {% include('_partial/social-icons.twig') %}
+                {{ page.content }}
+            </div>
+        </div>    
+        {% include('_partial/footer.twig') %}
+    </div><!-- end container -->
+    {% include('_partial/after-footer.twig') %}
+</body>
+{% endblock %}

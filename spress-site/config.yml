@@ -1,1 +1,79 @@
 # Site configuration
+title: "Myriam Tousignant"
+description: "Myriam Tousignant - Artiste"
+#logo: "spresso-logo.png"
+
+# Your site's domain. E.g: http://yoursite.com
+url: "http://myriamtousignant.com"
+
+# Serving
+host: '0.0.0.0'
+port: 8081
+
+parsedown_actived: true
+
+# Comments in posts
+#comments:
+#    enabled: false
+#    disqus_shortname: ""
+
+# Information about author
+#author:
+#    name: "Éric St-Pierre"
+
+# Social networks
+#    twitter: 
+#    github: "https://github.com/spress/Spress"
+#    bitbucket:
+#    facebook:
+#    linkedin:
+#    gplus:
+#    youtube:
+
+# Collections
+collections:
+  posts:
+    output: true
+    sort_by: 'date'
+    sort_type: 'descending'
+    
+#  projects:
+#    output: true
+
+# RSS feed
+feed:
+    max_item: 10
+
+# Facebook Open Graph
+open_graph:
+    locale: "fr_CA"
+
+# Code highlight for <pre> and <code> tags
+# Powered by http://highlightjs.org/
+#code_highlight: true
+
+# Site validation
+#google_verify:
+#bing_verify:
+
+# Page menus
+#top_menu:
+#    - { name: Home, url: "/" }
+#    - { name: Projects, url: "/projects" }
+
+#bottom_menu:
+#    - { name: "Go to Spresso theme web", url: "https://github.com/yosymfony/Spress-theme-spresso" }
+
+layout_ext: ['html.twig', 'twig', 'html']
+
+menu:
+    - { name: "Accueil", url: "/" }
+    - { name: "Projets", url: "/projects/" }
+    - { name: "Livres d'artiste", url: "/livres-artiste" }
+    - { name: "Publications", url: "/publications/" }
+    - { name: "Biographie & démarche", url: "/biographie-demarche-2/" }
+    - { name: "Presse", url: "/presse-2/" }
+
+livres:
+  - {titre: 'Série - Les formes', url: '/livres-artiste/serie-formes', image: '/wp-content/uploads/2016/09/livrets-arprim/livrets-arprim-8.jpg'}
+  - {titre: 'Maskipêche', url: '/livres-artiste/livre-maskipeche', image: '/wp-content/uploads/2016/09/maskipeche/maskipeche-1.jpg'}

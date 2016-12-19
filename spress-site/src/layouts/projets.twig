@@ -1,0 +1,28 @@
+---
+layout: 'layout'
+---
+{% block content %}
+<body class="single single-post single-format-standard bg_none ">
+  {% include('_partial/branding.twig') %}
+  <div id="container" class="clearfix">
+    {% include('_partial/header.twig') %}
+    <div id="main" class="clearfix">
+      <div id="pageHead">
+        <h1>{{ page.title }}</h1>
+        <small>({{ page.year }})</small>
+        {% include '_partial/navigation.twig' with {previouslink: page.previouslink, nextlink: page.nextlink} %} 
+        <div id="content">
+          <div class="project clearfix">
+            <p>
+              {% include '_partial/slideshow.twig' with {slides: page.slides} %}
+              {{ page.content }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% include('_partial/footer.twig') %}
+  </div><!-- end container -->
+  {% include('_partial/after-footer.twig') %}
+</body>
+{% endblock %}
