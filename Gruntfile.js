@@ -6,7 +6,7 @@ module.exports = function(grunt){
             server: {
                 options: {
                     port: 8082,
-                    base: 'public'
+                    base: 'spress-site/build'
                 }
             }
         },
@@ -18,10 +18,10 @@ module.exports = function(grunt){
                   compress: false,
                   linenos: true,
                   'resolve url': true,
-                  paths: ['themes/myriamtousignant-com/source/']
+                  paths: ['spress-site/src/content/']
                 },
                 files: {
-                    'themes/myriamtousignant-com/source/css/main.css' : 'themes/myriamtousignant-com/stylesheets/main.styl' 
+                    'spress-site/src/content/css/main.css' : 'spress-site/src/stylesheets/main.styl' 
                 }
             }
         },
@@ -62,7 +62,6 @@ module.exports = function(grunt){
         'shell:reference:test/backstop/backstop-projets.json'
     ]);
     grunt.registerTask('test', [
-        'generate',
         'connect:server',
         'shell:test:test/backstop/backstop-pages.json', 
         'shell:test:test/backstop/backstop-posts.json',

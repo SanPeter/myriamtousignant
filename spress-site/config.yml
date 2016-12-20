@@ -10,6 +10,8 @@ url: "http://myriamtousignant.com"
 host: '0.0.0.0'
 port: 8081
 
+exlucde: ['stylesheets']
+
 parsedown_actived: true
 
 # Comments in posts

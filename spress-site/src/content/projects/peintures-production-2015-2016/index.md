@@ -16,7 +16,5 @@ slides:
   - /wp-content/uploads/2016/10/fac-2016/fac-2016-9.jpg
 ---
 <div class="one_half">
-  <p>
-    crédit photo : Eric St-Pierre
-  </p>
+  <p>crédit photo : Eric St-Pierre</p>
 </div>

@@ -15,8 +15,6 @@ slides:
   - /wp-content/uploads/2015/10/toiles-1.jpg
 ---
 <div class="one_half">
-  <p>
-    Production 2010 / 2015
-    crédit photo : Eric St-Pierre
-  </p>
+  <p>Production 2010 / 2015</p>
+  <p>crédit photo : Eric St-Pierre</p>
 </div>

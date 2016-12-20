@@ -15,7 +15,5 @@ slides:
   - /wp-content/uploads/2016/09/maskipeche/maskipeche-8.jpg
   - /wp-content/uploads/2016/09/maskipeche/maskipeche-9.jpg
 ---
-<p>
-Production 2015<br />
-crédit photo : Eric St-Pierre
-</p>
+<p>Production 2015</p>
+<p>crédit photo : Eric St-Pierre</p>

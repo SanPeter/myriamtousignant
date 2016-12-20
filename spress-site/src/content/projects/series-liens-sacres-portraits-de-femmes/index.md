@@ -157,7 +157,7 @@ layout: projets
 			</dt></dl>
 			<br style='clear: both;' />
 		</div>
-<div class="one_half"><p>
-Liens sacrés / Portraits de femmes<br />
-crédit photo : Éric St-Pierre</p>
+<div class="one_half">
+<p>Liens sacrés / Portraits de femmes</p>
+<p>crédit photo : Éric St-Pierre</p>
 </div>
