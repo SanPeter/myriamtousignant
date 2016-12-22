@@ -33,6 +33,6 @@
     "generate": "grunt generate",
     "reference": "grunt reference",
     "serve": "http-server -p 8082 spress/build",
-    "test": "grunt test"
+    "test": "composer install --working-dir spress-site && grunt test"
   }
 }
