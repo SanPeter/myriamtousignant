@@ -16,4 +16,4 @@ deployment:
   staging:
     branch: stylus-integration
     commands:
-      - surge --project ./public --domain new.myriamtousignant.com
+      - surge --project ./spress-site/build --domain new.myriamtousignant.com

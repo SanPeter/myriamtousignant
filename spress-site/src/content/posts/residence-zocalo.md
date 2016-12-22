@@ -17,9 +17,9 @@ external_url: http://zocaloweb.org/
 external_url_title: Centre Zocalo
 parution: Novembre 2015
 ---
-Présentation publique de projets de livres d'artistes
-vendredi le 27 novembre 2015 à 13:30 et 18:30, 
-avec Micheline Bertrand, Andréanne Gagnon et Myriam Tousignant.
+<p>Présentation publique de projets de livres d'artistes<br/>
+vendredi le 27 novembre 2015 à 13:30 et 18:30,<br/>
+avec Micheline Bertrand, Andréanne Gagnon et Myriam Tousignant.</p>
 
-Centre Zocalo,
-80 rue St-Jean, Longueuil
+<p>Centre Zocalo,<br/>
+80 rue St-Jean, Longueuil</p>

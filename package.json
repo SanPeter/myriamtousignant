@@ -32,7 +32,7 @@
     "clean": "grunt clean-all",
     "generate": "grunt generate",
     "reference": "grunt reference",
-    "serve": "http-server -p 8082 public/",
+    "serve": "http-server -p 8082 spress/build",
     "test": "grunt test"
   }
 }
