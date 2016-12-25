@@ -1,0 +1,11 @@
+{% if slides %}
+<div class="slideshow">
+  <div class="flexslider">
+    <ul class="slides">
+      {% for slide in slides %}
+        <li><img class="alignnone size-full wp-image-202" alt="Toile" src="{{ slide }}" width="720" height="525" /></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div><br />
+{% endif %}

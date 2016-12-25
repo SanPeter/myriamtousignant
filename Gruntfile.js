@@ -6,7 +6,7 @@ module.exports = function(grunt){
             server: {
                 options: {
                     port: 8082,
-                    base: 'public'
+                    base: 'spress-site/build'
                 }
             }
         },
@@ -18,20 +18,17 @@ module.exports = function(grunt){
                   compress: false,
                   linenos: true,
                   'resolve url': true,
-                  paths: ['themes/myriamtousignant-com/source/']
+                  paths: ['spress-site/src/content/']
                 },
                 files: {
-                    'themes/myriamtousignant-com/source/css/main.css' : 'themes/myriamtousignant-com/stylesheets/main.styl' 
+                    'spress-site/src/content/css/main.css' : 'spress-site/src/stylesheets/main.styl' 
                 }
             }
         },
         
         shell: {
-            hexo_clean: {
-                command: 'hexo clean'
-            },
-            hexo_generate: {
-                command: 'hexo generate'
+           spress_generate: {
+                command: 'spress-site/vendor/bin/spress site:build --source="spress-site/"'
             },
             reference: {
                 command: configFile => 'backstop reference --configPath=' + configFile 
@@ -52,13 +49,29 @@ module.exports = function(grunt){
         grunt.log.writeln('default Grunt task');
     });
     
-    grunt.registerTask('clean-all', ['clean', 'shell:hexo_clean']);
-    grunt.registerTask('generate', ['stylus', 'shell:hexo_generate']);
+    grunt.registerTask('clean-all', ['clean']);
+    grunt.registerTask('generate', ['stylus', 'shell:spress_generate']);
     
     grunt.registerTask('reference', [
+        'generate',
         'connect:server',
         'shell:reference:test/backstop/backstop-pages.json', 
         'shell:reference:test/backstop/backstop-posts.json',
+        'shell:reference:test/backstop/backstop-projets.json'
+    ]);
+    grunt.registerTask('reference-pages', [
+        'generate',
+        'connect:server',
+        'shell:reference:test/backstop/backstop-pages.json'
+    ]);
+    grunt.registerTask('reference-posts', [
+        'generate',
+        'connect:server',
+        'shell:reference:test/backstop/backstop-posts.json'
+    ]);
+    grunt.registerTask('reference-projets', [
+        'generate',
+        'connect:server',
         'shell:reference:test/backstop/backstop-projets.json'
     ]);
     grunt.registerTask('test', [
@@ -66,6 +79,21 @@ module.exports = function(grunt){
         'connect:server',
         'shell:test:test/backstop/backstop-pages.json', 
         'shell:test:test/backstop/backstop-posts.json',
+        'shell:test:test/backstop/backstop-projets.json'
+    ]);
+    grunt.registerTask('test-pages', [
+        'generate',
+        'connect:server',
+        'shell:test:test/backstop/backstop-pages.json' 
+    ]);
+    grunt.registerTask('test-posts', [
+        'generate',
+        'connect:server',
+        'shell:test:test/backstop/backstop-posts.json'
+    ]);
+    grunt.registerTask('test-projets', [
+        'generate',
+        'connect:server',
         'shell:test:test/backstop/backstop-projets.json'
     ]);
 };

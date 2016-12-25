@@ -1,0 +1,15 @@
+<div id="sideWidgets">
+	<div id="ttrust_recent_posts-2" class="ttrust_recent_posts sidebarBox widgetBox">
+		<h3>Nouvelles</h3>
+		<ul class="widgetList">
+			{% for post in site.posts | slice(0, 4) %}
+			<li class="clearfix">
+				<span class="title">
+					<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+				</span>
+				<span class="meta">{{ post.date|date('d/m/Y') }}</span>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

@@ -20,7 +20,7 @@
   "scenarios": [
     {
       "label": "residence-zocalo",
-      "url": "http://localhost:8082/2015/10/18/residence-zocalo/",
+      "url": "http://localhost:8082/nouvelles/2015/10/18/residence-zocalo/",
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
@@ -34,7 +34,7 @@
     },
     {
       "label": "metier-artiste-lenvers-du-decor-de-stanley-fevrier",
-      "url": "http://localhost:8082/2016/03/26/metier-artiste-lenvers-du-decor-de-stanley-fevrier/",
+      "url": "http://localhost:8082/nouvelles/2016/03/26/metier-artiste-lenvers-du-decor-de-stanley-fevrier/",
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
@@ -48,7 +48,7 @@
     },
     {
       "label": "metier-artiste-lenvers-du-decor-dandree-anne-dupuis-bourret",
-      "url": "http://localhost:8082/2016/05/01/metier-artiste-lenvers-du-decor-dandree-anne-dupuis-bourret/",
+      "url": "http://localhost:8082/nouvelles/2016/05/01/metier-artiste-lenvers-du-decor-dandree-anne-dupuis-bourret/",
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
@@ -62,7 +62,7 @@
     },
     {
       "label": "metier-artiste-lenvers-du-decor-de-julie-lequin",
-      "url": "http://localhost:8082/2016/06/05/metier-artiste-lenvers-du-decor-de-julie-lequin/",
+      "url": "http://localhost:8082/nouvelles/2016/06/05/metier-artiste-lenvers-du-decor-de-julie-lequin/",
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
@@ -76,7 +76,7 @@
     },
     {
       "label": "metier-artiste-lenvers-du-decor-de-patsy-van-roost",
-      "url": "http://localhost:8082/2016/08/14/metier-artiste-lenvers-du-decor-de-patsy-van-roost/",
+      "url": "http://localhost:8082/nouvelles/2016/08/14/metier-artiste-lenvers-du-decor-de-patsy-van-roost/",
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
@@ -90,7 +90,7 @@
     },
     {
       "label": "metier-artiste-lenvers-du-decor-demmanuel-galland",
-      "url": "http://localhost:8082/2016/08/14/metier-artiste-lenvers-du-decor-demmanuel-galland/",
+      "url": "http://localhost:8082/nouvelles/2016/08/14/metier-artiste-lenvers-du-decor-demmanuel-galland/",
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
@@ -104,7 +104,7 @@
     },
     {
       "label": "metier-artiste-lenvers-du-decor-dandreanne-gagnon",
-      "url": "http://localhost:8082/2016/08/27/metier-artiste-lenvers-du-decor-dandreanne-gagnon/",
+      "url": "http://localhost:8082/nouvelles/2016/08/27/metier-artiste-lenvers-du-decor-dandreanne-gagnon/",
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
@@ -118,7 +118,7 @@
     },
     {
       "label": "metier-artiste-lenvers-du-decor-de-cynthia-dinan-mithcell",
-      "url": "http://localhost:8082/2016/10/06/metier-artiste-lenvers-du-decor-de-cynthia-dinan-mithcell/",
+      "url": "http://localhost:8082/nouvelles/2016/10/06/metier-artiste-lenvers-du-decor-de-cynthia-dinan-mitchell/",
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
@@ -132,7 +132,7 @@
     },
     {
       "label": "metier-artiste-lenvers-du-decor-de-jennifer-lupien",
-      "url": "http://localhost:8082/2016/10/06/metier-artiste-lenvers-du-decor-de-jennifer-lupien/",
+      "url": "http://localhost:8082/nouvelles/2016/11/22/metier-artiste-lenvers-du-decor-de-jennifer-lupien/",
       "hideSelectors": [],
       "removeSelectors": [],
       "selectors": [
