@@ -12,7 +12,7 @@ deployment:
   production:
     branch: master
     commands:
-      - surge --project ./public --domain myriamtousignant.com
+      - surge --project ./spress-site/build --domain myriamtousignant.com
   staging:
     branch: migration-php 
     commands:
