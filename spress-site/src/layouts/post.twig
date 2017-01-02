@@ -3,15 +3,15 @@ layout: 'layout'
 ---
 {% block content %}
 <body class="single single-post single-format-standard bg_none ">
-    {% include('_partial/branding.twig') %}
+    {% include('partial/branding.twig') %}
     <div id="container" class="clearfix">
-        {% include('_partial/header.twig') %}
+        {% include('partial/header.twig') %}
         <div id="main" class="clearfix">
             <div id="pageHead">
                 <h1>Publications</h1>
             </div>
             <div id="content">
-                {% include('_partial/social-icons.twig') %}
+                {% include('partial/social-icons.twig') %}
                 <p>
                     <strong>{{ page.parution }}</strong><br/>
                     <a href="{{ page.external_url }}" target="_blank" rel="external">{{ page.title }}</a>
@@ -20,8 +20,8 @@ layout: 'layout'
                 <p><a href="{{ page.external_url }}" target="_blank" rel="external">{% if page.external_url_title %} {{ page.external_url_title }} {% else %}Consulter l'article sur Baron Mag{% endif %}</a></p>
             </div>
         </div>    
-        {% include('_partial/footer.twig') %}
+        {% include('partial/footer.twig') %}
     </div><!-- end container -->
-    {% include('_partial/after-footer.twig') %}
+    {% include('partial/after-footer.twig') %}
 </body>
 {% endblock %}
