@@ -21,7 +21,7 @@
     "generate": "grunt generate",
     "reference": "grunt reference",
     "serve": "http-server -p 8082 spress-site/build",
-    "test": "composer install --working-dir spress-site && fractal build && grunt test",
+    "test": "composer install --working-dir spress-site && grunt test",
     "start": "fractal start --sync",
     "build": "fractal build"
   }

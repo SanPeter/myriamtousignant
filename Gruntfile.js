@@ -35,6 +35,9 @@ module.exports = function(grunt){
             },
             test: {
                 command: configFile => 'backstop test --configPath=' + configFile
+            },
+            fractal_build: {
+                command: 'fractal build'
             }
         }
         
@@ -50,7 +53,7 @@ module.exports = function(grunt){
     });
     
     grunt.registerTask('clean-all', ['clean']);
-    grunt.registerTask('generate', ['stylus', 'shell:spress_generate']);
+    grunt.registerTask('generate', ['shell:spress_generate', 'stylus', 'shell:fractal_build']);
     
     grunt.registerTask('reference', [
         'generate',
