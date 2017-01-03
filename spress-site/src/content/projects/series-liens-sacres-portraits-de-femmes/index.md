@@ -3,7 +3,7 @@ title: Séries &#8211; Liens sacrés, Portraits de femmes
 year: 2012
 previouslink: /projects/portraits-de-femmes-liens-sacres/
 nextlink: /projects/extase-a-emporter/
-layout: projets
+layout: _projets
 ---
 <h2>Série motifs colombes</h2>
 <style type='text/css'> #gallery-1 {margin: auto;}#gallery-1 .gallery-item {float: left;margin-top: 10px;text-align: center;width: 25%;}#gallery-1 img {border: 2px solid #cfcfcf;}#gallery-1 .gallery-caption {margin-left: 0;}</style>

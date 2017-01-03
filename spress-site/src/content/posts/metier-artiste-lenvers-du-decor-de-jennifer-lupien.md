@@ -1,6 +1,6 @@
 ---
 title: 'Métier artiste: l''envers du décor de Jennifer Lupien' 
-layout: post
+layout: _post
 categories:
     - nouvelles
 date: "2016-11-22 00:59:49"

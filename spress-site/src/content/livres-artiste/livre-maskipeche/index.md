@@ -3,7 +3,7 @@ title: Maskipêche
 year: 2015
 previouslink: /livres-artiste/serie-formes
 nextlink: 
-layout: projets
+layout: _projets
 slides:
   - /wp-content/uploads/2016/09/maskipeche/maskipeche-1.jpg
   - /wp-content/uploads/2016/09/maskipeche/maskipeche-2.jpg

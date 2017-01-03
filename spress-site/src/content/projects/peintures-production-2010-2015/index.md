@@ -1,6 +1,6 @@
 ---
 title: Peintures &#8211; Production 2010 / 2015
-layout: projets
+layout: _projets
 year: 2015
 previouslink: /projects/liens-sacres-portraits-de-femmes/
 nextlink: /projects/peintures-production-2015-2016/ 

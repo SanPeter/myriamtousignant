@@ -11,7 +11,7 @@ comment: false
 categories:
   - nouvelles
 date: "2016-08-14 19:02:16"
-layout: post 
+layout: _post 
 og_description: « Un succès, c'est beaucoup de refus...»
 external_url: http://www.baronmag.com/2016/08/metier-artiste-lenvers-du-decor-emmanuel-galland/ 
 parution: Juillet 2016

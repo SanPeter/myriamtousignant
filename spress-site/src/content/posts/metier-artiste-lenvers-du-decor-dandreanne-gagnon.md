@@ -12,7 +12,7 @@ comment: false
 categories:
   - nouvelles
 date: '2016-08-27 09:49:02'
-layout: post
+layout: _post
 og_description: « L'idée de créer cette série d'articles est née au contact d'Andréanne...»
 external_url: http://www.baronmag.com/2016/08/metier-artiste-lenvers-du-decor-dandreanne-gagnon/ 
 parution: Août 2016

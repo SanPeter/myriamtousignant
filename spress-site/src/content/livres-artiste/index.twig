@@ -3,9 +3,9 @@ layout: 'layout'
 ---
 {% block content %}
 <body class="page page-id-630 page-template page-template-portfolio-php bg_none ">
-	{% include('partial/branding.twig') %}
+	{% include('_partial/branding.twig') %}
 	<div id="container" class="clearfix">
-		{% include('partial/header.twig') %}
+		{% include('_partial/_header.twig') %}
 		<div id="main" class="clearfix">
 			<div id="pageHead">
 				<h1>Livres d'artiste</h1>
@@ -25,8 +25,8 @@ layout: 'layout'
 				</div>
 			</div>
 		</div>
-		{% include('partial/footer.twig') %}
+		{% include('_partial/_footer.twig') %}
 	</div><!-- end container -->
-	{% include('partial/after-footer.twig') %}
+	{% include('_partial/_after-footer.twig') %}
 </body>
 {% endblock %}

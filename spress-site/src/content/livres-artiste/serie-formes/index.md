@@ -3,7 +3,7 @@ title: Série - Les formes
 year: 2016
 previouslink: 
 nextlink: /livres-artiste/livre-maskipeche
-layout: projets
+layout: _projets
 slides:
   - /wp-content/uploads/2016/09/livrets-arprim/livrets-arprim-8.jpg
   - /wp-content/uploads/2016/09/livrets-arprim/livrets-arprim-9.jpg

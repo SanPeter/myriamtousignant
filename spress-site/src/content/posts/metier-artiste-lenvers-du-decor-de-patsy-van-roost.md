@@ -11,7 +11,7 @@ comment: false
 categories:
   - nouvelles
 date: "2016-08-14 18:51:33"
-layout: post
+layout: _post
 og_description: « Les gens ne réalisent pas ce qu'est le travail d'artiste...»
 external_url: http://www.baronmag.com/2016/06/metier-artiste-patsy-van-roost/ 
 parution: Juin 2016

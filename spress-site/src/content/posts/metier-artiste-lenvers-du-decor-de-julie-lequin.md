@@ -10,7 +10,7 @@ comment: false
 categories:
   - nouvelles
 date: "2016-06-05 09:01:11"
-layout: post 
+layout: _post 
 og_description: « J'ai vu que même si tes oeuvres voyagent beaucoup, tu ne peux pas vraiment vivre de ça...»
 external_url: http://www.baronmag.com/2016/05/metier-artiste-julie-lequin/ 
 parution: Mai 2016
