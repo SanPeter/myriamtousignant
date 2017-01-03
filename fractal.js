@@ -9,6 +9,9 @@ fractal.set('project.title', 'Fractal Test Component Library');
 /* Tell Fractal where the components will live */
 fractal.components.set('path', __dirname + '/spress-site/src');
 
+/* Tell Fractal where the static build will be generated */
+fractal.web.set('builder.dest', __dirname + '/spress-site/build/styleguide');
+
 /* Tell Fractal where the documentation pages will live */
 fractal.docs.set('path', __dirname + '/src/docs');
 
