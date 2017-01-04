@@ -11,7 +11,7 @@ comment: false
 categories:
   - nouvelles
 date: "2016-03-26 09:08:24"
-layout: post
+layout: _post
 og_description: « Si la valeur du métier est proportionnelle au salaire accordé...»
 external_url: http://www.baronmag.com/2016/03/metier-artiste-lenvers-du-decor-de-stanley-fevrier/ 
 parution: Mars 2016

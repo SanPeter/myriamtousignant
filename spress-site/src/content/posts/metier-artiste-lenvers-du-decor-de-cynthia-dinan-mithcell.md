@@ -11,7 +11,7 @@ tags:
 categories:
   - nouvelles
 date: "2016-10-06 09:49:02"
-layout: post
+layout: _post
 og_description: « Pendant de longues années, je me sentais comme une intruse dans les métiers d'arts...»
 external_url: http://www.baronmag.com/2016/10/metier-artiste-cynthia-dinan-mitchell/
 parution: Septembre 2016

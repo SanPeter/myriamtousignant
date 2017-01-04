@@ -11,7 +11,7 @@ comment: false
 categories:
   - nouvelles
 date: "2015-10-18 18:22:03"
-layout: post
+layout: _post
 og_description: Présentation publique de projets de livres d'artistes
 external_url: http://zocaloweb.org/
 external_url_title: Centre Zocalo

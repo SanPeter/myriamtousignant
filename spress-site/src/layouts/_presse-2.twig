@@ -4,8 +4,8 @@ layout: 'layout'
 {% block content %}
 <body class="page page-id-628 page-template page-template-presse-php bg_none " >
         <div id="container" class="clearfix">
-	        {% include('_partial/branding.twig') %}
-            {% include('_partial/header.twig') %}
+	        {% include is_styleguide ? '@branding' : '_partial/branding.twig' %}
+            {% include is_styleguide ? '_header' : '_partial/_header.twig' %}
             <div id="main" class="clearfix">
 		<div id="pageHead">
 			<h1>{{ page.title }}</h1>
@@ -38,8 +38,8 @@ layout: 'layout'
 		</div>		
 	
 	</div>	
-	{% include('_partial/footer.twig') %}
+	{% include is_styleguide ? '_footer' : '_partial/_footer.twig' %}
 </div><!-- end container -->
-{% include('_partial/after-footer.twig') %}
+{% include is_styleguide ? '_after-footer' : '_partial/_after-footer.twig' %}
 </body>
 {% endblock %}

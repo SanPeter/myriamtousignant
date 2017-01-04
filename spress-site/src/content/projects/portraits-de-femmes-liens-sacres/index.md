@@ -1,7 +1,7 @@
 ---
 title: Liens sacrés, Portraits de femmes / CDEx
 year: 2012
-layout: projets
+layout: _projets
 previouslink: /projects/lebestiaire/
 nextlink: /projects/series-liens-sacres-portraits-de-femmes/
 slides:

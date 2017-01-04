@@ -1,4 +1,4 @@
 ---
 title: "Presse"
-layout: presse-2
+layout: _presse-2
 ---

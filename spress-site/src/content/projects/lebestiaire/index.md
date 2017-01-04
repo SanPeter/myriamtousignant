@@ -11,7 +11,7 @@ slides:
   - /wp-content/uploads/2013/05/Bestiaire-7.png
   - /wp-content/uploads/2013/05/Bestiaire-6.png
   - /wp-content/uploads/2013/05/1-Bestiaire.png
-layout: projets
+layout: _projets
 ---
 <p>Le Bestiaire</p>
 <p>Présenté au centre L&rsquo;Écart, 15 oct au 14 nov 2010</p>

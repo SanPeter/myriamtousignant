@@ -3,7 +3,7 @@ title: Convergence disloquée
 year: 2008
 previouslink: /projects/le-corps-pictural/
 nextlink: 
-layout: projets
+layout: _projets
 slides:
   - /wp-content/uploads/2013/05/Matane-Regnes-1.png
 ---

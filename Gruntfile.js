@@ -1,6 +1,11 @@
 module.exports = function(grunt){
     grunt.initConfig({
-        clean: ['backstop_data/bitmaps_test*/**', 'backstop_data/html_report*/**', 'backstop_data/ci_report*/**'],
+        clean: [
+            'backstop_data/bitmaps_test*/**', 
+            'backstop_data/html_report*/**', 
+            'backstop_data/ci_report*/**',
+            'spress-site/build/**'
+        ],
         
         connect: {
             server: {
@@ -11,6 +16,14 @@ module.exports = function(grunt){
             }
         },
         
+        copy: {
+          main: {
+            expand: true,
+            cwd: 'spress-site/src/assets/',
+            src: '**',
+            dest: 'spress-site/build/',
+          },
+        },        
         stylus: {
             compile: {
                 options: {
@@ -18,10 +31,10 @@ module.exports = function(grunt){
                   compress: false,
                   linenos: true,
                   'resolve url': true,
-                  paths: ['spress-site/src/content/']
+                  paths: ['spress-site/src/assets/']
                 },
                 files: {
-                    'spress-site/src/content/css/main.css' : 'spress-site/src/stylesheets/main.styl' 
+                    'spress-site/src/assets/css/main.css' : 'spress-site/src/stylesheets/main.styl' 
                 }
             }
         },
@@ -35,12 +48,16 @@ module.exports = function(grunt){
             },
             test: {
                 command: configFile => 'backstop test --configPath=' + configFile
+            },
+            fractal_build: {
+                command: 'fractal build'
             }
         }
         
     });
     
     grunt.loadNpmTasks('grunt-shell');
+    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-stylus');
@@ -50,7 +67,7 @@ module.exports = function(grunt){
     });
     
     grunt.registerTask('clean-all', ['clean']);
-    grunt.registerTask('generate', ['stylus', 'shell:spress_generate']);
+    grunt.registerTask('generate', ['shell:spress_generate', 'stylus', 'copy', 'shell:fractal_build']);
     
     grunt.registerTask('reference', [
         'generate',

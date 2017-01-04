@@ -3,7 +3,7 @@ title: Le corps pictural
 year: 2009
 previouslink: /projects/convergence-disloquee/
 nextlink: /projects/lebestiaire/
-layout: projets
+layout: _projets
 slides:
   - /wp-content/uploads/2016/10/le-corps-pictural/le-corps-pictural-1.jpg
   - /wp-content/uploads/2016/10/le-corps-pictural/le-corps-pictural-2.jpg

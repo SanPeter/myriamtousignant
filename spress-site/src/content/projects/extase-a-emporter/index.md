@@ -1,7 +1,7 @@
 ---
 title: Extase à emporter
 year: 2012
-layout: projets
+layout: _projets
 previouslink: /projects/series-liens-sacres-portraits-de-femmes/
 nextlink: /projects/liens-sacres-portraits-de-femmes/
 slides:
