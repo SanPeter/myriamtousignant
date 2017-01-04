@@ -10,7 +10,8 @@ url: "http://myriamtousignant.com"
 host: '0.0.0.0'
 port: 8081
 
-exlucde: ['stylesheets']
+exclude: ['stylesheets']
+include: ['/workspace/spress-site/src/assets/css']
 
 parsedown_actived: true
 
