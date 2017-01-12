@@ -28,8 +28,8 @@ module.exports = function(grunt){
             compile: {
                 options: {
                   'include css': true,
-                  compress: false,
-                  linenos: true,
+                  compress: true,
+                  linenos: false,
                   'resolve url': true,
                   paths: ['spress-site/src/assets/']
                 },
