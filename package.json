@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@frctl/fractal": "^1.0.11",
-    "@frctl/mandelbrot": "^1.0.7",
-    "@frctl/twig": "git+https://github.com/tnottu/fractal-twig-adapter.git",
+//    "@frctl/fractal": "^1.0.11",
+//    "@frctl/mandelbrot": "^1.0.7",
+//    "@frctl/twig": "git+https://github.com/tnottu/fractal-twig-adapter.git",
     "surge": "^0.18.0"
   },
   "devDependencies": {
-    "backstopjs": "^2.0.6",
+    //"backstopjs": "^2.0.6",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-connect": "^1.0.2",
