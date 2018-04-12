@@ -2,11 +2,12 @@ test:
   pre:
     - npm run clean
   override:
-    - mkdir -p $CIRCLE_TEST_REPORTS
-    - npm test
-    - cp ./backstop_data/ci_report_pages/* $CIRCLE_TEST_REPORTS/
-    - cp ./backstop_data/ci_report_projets/* $CIRCLE_TEST_REPORTS/
-    - cp ./backstop_data/ci_report_posts/* $CIRCLE_TEST_REPORTS/
+     - npm generate
+#    - mkdir -p $CIRCLE_TEST_REPORTS
+#    - npm test
+#    - cp ./backstop_data/ci_report_pages/* $CIRCLE_TEST_REPORTS/
+#    - cp ./backstop_data/ci_report_projets/* $CIRCLE_TEST_REPORTS/
+#    - cp ./backstop_data/ci_report_posts/* $CIRCLE_TEST_REPORTS/
 
 deployment:
   production:
