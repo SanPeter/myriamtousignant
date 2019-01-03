@@ -21,8 +21,14 @@ module.exports = function(grunt){
             expand: true,
             cwd: 'spress-site/src/assets/',
             src: '**',
-            dest: 'spress-site/build/',
+            dest: 'spress-site/build/'
           },
+          deploy: {
+              expand: true,
+              cwd: 'spress-site/build/',
+              src: '**',
+              dest: 'docs/'
+          }
         },        
         stylus: {
             compile: {
@@ -67,7 +73,8 @@ module.exports = function(grunt){
     });
     
     grunt.registerTask('clean-all', ['clean']);
-    grunt.registerTask('generate', ['shell:spress_generate', 'stylus', 'copy']);
+    grunt.registerTask('generate', ['shell:spress_generate', 'stylus', 'copy:main']);
+    grunt.registerTask('deploy', ['shell:spress_generate', 'stylus', 'copy:deploy']);
     //grunt.registerTask('generate', ['shell:spress_generate', 'stylus', 'copy', 'shell:fractal_build']);
     
 //    grunt.registerTask('reference', [
