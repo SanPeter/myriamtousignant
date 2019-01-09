@@ -74,7 +74,7 @@ module.exports = function(grunt){
     
     grunt.registerTask('clean-all', ['clean']);
     grunt.registerTask('generate', ['shell:spress_generate', 'stylus', 'copy:main']);
-    grunt.registerTask('deploy', ['shell:spress_generate', 'stylus', 'copy:deploy']);
+    grunt.registerTask('deploy', ['shell:spress_generate', 'stylus', 'copy:main', 'copy:deploy']);
     //grunt.registerTask('generate', ['shell:spress_generate', 'stylus', 'copy', 'shell:fractal_build']);
     
 //    grunt.registerTask('reference', [
