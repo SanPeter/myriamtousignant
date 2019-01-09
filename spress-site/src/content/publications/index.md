@@ -1,5 +1,5 @@
 ---
-title: Publication
+title: Publications
 id: 796
 comment: false
 layout: _publications

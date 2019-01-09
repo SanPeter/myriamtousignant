@@ -8,7 +8,7 @@ layout: 'layout'
         {% include is_styleguide ? '_header' : '_partial/_header.twig' %}
         <div id="main" class="clearfix">
             <div id="pageHead">
-                <h1>Publications</h1>
+                <h1>{{ page.title }}</h1>
             </div>
             <div id="content">
                 {% include is_styleguide ? '_social-icons' : '_partial/_social-icons.twig' %}
