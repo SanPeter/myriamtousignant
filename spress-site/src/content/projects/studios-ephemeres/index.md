@@ -15,5 +15,4 @@ Studios de création éphémères pour artistes - Studios Éphémères</a>
   <p>Le Conseil des arts de Longueuil transforme la station de métro Longueuil–Université-de-Sherbrooke en studios éphémères de création pour artistes.</p>
   <br/>
   <a href="http://studiosephemeres.com/">studiosephemeres.com</a>
-  <p>crédit photo : Eric St-Pierre</p>
 </div>
