@@ -2,9 +2,7 @@
   "name": "myriamtousignant-com",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {
-    "surge": "^0.20.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
