@@ -16,7 +16,6 @@
     "clean": "grunt clean-all",
     "generate": "grunt generate",
     "deploy": "grunt deploy",
-    "serve": "http-server -p 8082 spress-site/build",
-    "start": "fractal start --sync"
+    "serve": "http-server -p 8082 spress-site/build"
   }
 }

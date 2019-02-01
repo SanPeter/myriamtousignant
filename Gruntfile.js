@@ -45,9 +45,6 @@ module.exports = function(grunt){
         shell: {
            spress_generate: {
                 command: 'spress-site/vendor/bin/spress site:build --source="spress-site/"'
-            },
-            fractal_build: {
-                command: 'fractal build'
             }
         }
     });
