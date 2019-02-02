@@ -1,9 +1,5 @@
 module.exports = function(grunt){
     grunt.initConfig({
-        clean: [
-            'spress-site/build/**'
-        ],
-        
         connect: {
             server: {
                 options: {
@@ -51,7 +47,6 @@ module.exports = function(grunt){
     
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-stylus');
     
@@ -59,7 +54,6 @@ module.exports = function(grunt){
         grunt.log.writeln('default Grunt task');
     });
     
-    grunt.registerTask('clean-all', ['clean']);
     grunt.registerTask('generate', ['shell:spress_generate', 'stylus', 'copy:main']);
     grunt.registerTask('deploy', ['shell:spress_generate', 'stylus', 'copy:main', 'copy:deploy']);
 };
