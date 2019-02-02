@@ -1,14 +1,5 @@
 module.exports = function(grunt){
     grunt.initConfig({
-        connect: {
-            server: {
-                options: {
-                    port: 8082,
-                    base: 'spress-site/build'
-                }
-            }
-        },
-        
         copy: {
           main: {
             expand: true,
@@ -47,7 +38,6 @@ module.exports = function(grunt){
     
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-stylus');
     
     grunt.registerTask('default', function() {
