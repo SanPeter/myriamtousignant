@@ -3,15 +3,15 @@ layout: 'layout'
 ---
 {% block content %}
 <body class="single single-post single-format-standard bg_none ">
-    {% include is_styleguide ? '@branding' : '_partial/branding.twig' %}
+    {% include ('_partial/branding.twig') %}
     <div id="container" class="clearfix">
-        {% include is_styleguide ? '_header' : '_partial/_header.twig' %}
+        {% include ('_partial/_header.twig') %}
         <div id="main" class="clearfix">
             <div id="pageHead">
                 <h1>Publications</h1>
             </div>
             <div id="content">
-                {% include is_styleguide ? '_social-icons' : '_partial/_social-icons.twig' %}
+                {% include ('_partial/_social-icons.twig') %}
                 <p>
                     <strong>{{ page.parution }}</strong><br/>
                     <a href="{{ page.external_url }}" target="_blank" rel="external">{{ page.title }}</a>
@@ -20,8 +20,8 @@ layout: 'layout'
                 <p><a href="{{ page.external_url }}" target="_blank" rel="external">{% if page.external_url_title %} {{ page.external_url_title }} {% else %}Consulter l'article sur Baron Mag{% endif %}</a></p>
             </div>
         </div>    
-        {% include is_styleguide ? '_footer' : '_partial/_footer.twig' %}
+        {% include ('_partial/_footer.twig') %}
     </div><!-- end container -->
-    {% include is_styleguide ? '_after-footer' : '_partial/_after-footer.twig' %}
+    {% include ('_partial/_after-footer.twig') %}
 </body>
 {% endblock %}

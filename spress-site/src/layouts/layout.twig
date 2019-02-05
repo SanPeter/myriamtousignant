@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr-CA">
-    {% include is_styleguide ? '_head' : '_partial/_head.twig' %}
+    {% include ('_partial/_head.twig') %}
     {% block content %}
         {{ page.content }}
     {% endblock %}
