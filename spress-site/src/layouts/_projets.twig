@@ -3,26 +3,26 @@ layout: 'layout'
 ---
 {% block content %}
 <body class="single single-post single-format-standard bg_none ">
-  {% include is_styleguide ? '@branding' : '_partial/branding.twig' %}
+  {% include ('_partial/branding.twig') %}
   <div id="container" class="clearfix">
-    {% include is_styleguide ? '_header' : '_partial/_header.twig' %}
+    {% include ('_partial/_header.twig') %}
     <div id="main" class="clearfix">
       <div id="pageHead">
         <h1>{{ page.title }}</h1>
         <small>({{ page.year }})</small>
-        {% include is_styleguide ? '_navigation' : '_partial/_navigation.twig' with {previouslink: page.previouslink, nextlink: page.nextlink} %} 
+        {% include '_partial/_navigation.twig' with {previouslink: page.previouslink, nextlink: page.nextlink} %} 
         <div id="content">
           <div class="project clearfix">
             <p>
-              {% include is_styleguide ? '_slideshow' : '_partial/_slideshow.twig' with {slides: page.slides} %}
+              {% include '_partial/_slideshow.twig' with {slides: page.slides} %}
               {{ page.content }}
             </p>
           </div>
         </div>
       </div>
     </div>
-    {% include is_styleguide ? '_footer' : '_partial/_footer.twig' %}
+    {% include ('_partial/_footer.twig') %}
   </div><!-- end container -->
-  {% include is_styleguide ? '_after-footer' : '_partial/_after-footer.twig' %}
+  {% include ('_partial/_after-footer.twig') %}
 </body>
 {% endblock %}
