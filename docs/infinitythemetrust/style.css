@@ -962,7 +962,7 @@ div.wp-caption img {
 .flexslider .slides > li {position: relative;}
 /* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
 .flex-container {zoom: 1; position: relative;}
-.flexslider .slides img { height: auto;}
+.flexslider .slides img { height: 540px; margin-left: auto; margin-right: auto; width: auto}
 .flex-direction-nav, .flex-control-nav, .flex-caption { margin-bottom:0 !important;}
 
 /* Caption style */
