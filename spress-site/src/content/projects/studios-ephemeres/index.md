@@ -5,6 +5,9 @@ year: 2019
 previouslink: /projects/studios-ephemeres/
 nextlink: 
 slides:
+  - /wp-content/uploads/2019/01/studios-ephemeres/Image-36.png  
+  - /wp-content/uploads/2019/01/studios-ephemeres/Image-35.png  
+  - /wp-content/uploads/2019/01/studios-ephemeres/Image-34.png  
   - /wp-content/uploads/2019/01/studios-ephemeres/Image-32.png  
   - /wp-content/uploads/2019/01/studios-ephemeres/Image-31.png  
   - /wp-content/uploads/2019/01/studios-ephemeres/Image-30.png  
