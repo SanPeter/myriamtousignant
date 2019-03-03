@@ -1,0 +1,5 @@
+node_modules/
+spress-site/vendor/
+
+package-lock.json
+spress-site/composer.lock
