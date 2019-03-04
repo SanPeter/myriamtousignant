@@ -5,7 +5,7 @@
     "type": "spress-theme",
     "minimum-stability": "dev",
     "require": {
-            "spress/spress-installer": "2.0.*",
-        "spress/spress": "^2.1"
+        "spress/spress-installer": "2.1.*",
+        "spress/spress": "2.2.*"
     }
 }

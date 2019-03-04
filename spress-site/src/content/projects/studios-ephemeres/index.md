@@ -5,7 +5,7 @@ year: 2019
 previouslink: /projects/studios-ephemeres/
 nextlink: 
 slides:
-  - /wp-content/uploads/2019/01/studios-ephemeres/studios-ephemeres.jpg  
+  - /wp-content/uploads/2019/01/studios-ephemeres/affiche_maskipeche.jpg  
   - /wp-content/uploads/2019/01/studios-ephemeres/Image-36.png  
   - /wp-content/uploads/2019/01/studios-ephemeres/Image-35.png  
   - /wp-content/uploads/2019/01/studios-ephemeres/Image-34.png  

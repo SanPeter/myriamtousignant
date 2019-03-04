@@ -11,8 +11,8 @@
     "list-selectors": "^2.0.0"
   },
   "scripts": {
-    "generate": ".\\spress-site\\bin\\spress.bat site:build --source=\".\\spress-site\" && grunt generate",
-    "deploy": ".\\spress-site\\bin\\spress.bat site:build --source=\".\\spress-site\" && grunt deploy",
+    "generate": "php .\\spress-site\\vendor\\spress\\spress\\bin\\spress site:build --source=\".\\spress-site\" && grunt generate",
+    "deploy": "php .\\spress-site\\vendor\\spress\\spress\\bin\\spress site:build --source=\".\\spress-site\" && grunt deploy",
     "serve": "http-server -p 8080 .\\spress-site\\build",
     "test": "http-server -p 8080 .\\docs",
     "analysis": "./node_modules/.bin/list-selectors spress-site/src/assets/css/main.css --pretty --include selectors,simple,classes,ids,attributes,types"
