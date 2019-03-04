@@ -1,5 +1,6 @@
 node_modules/
 spress-site/vendor/
+spress-site/build/
 
 package-lock.json
 spress-site/composer.lock

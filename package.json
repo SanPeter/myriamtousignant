@@ -11,9 +11,9 @@
     "list-selectors": "^2.0.0"
   },
   "scripts": {
-    "generate": "spress-site/vendor/bin/spress site:build --source=\"spress-site/\" && grunt generate",
-    "deploy": "spress-site/vendor/bin/spress site:build --source=\"spress-site/\" && grunt deploy",
-    "serve": "http-server -p 8082 spress-site/build",
+    "generate": ".\\spress-site\\bin\\spress.bat site:build --source=\".\\spress-site\" && grunt generate",
+    "deploy": ".\\spress-site\\bin\\spress.bat site:build --source=\".\\spress-site\" && grunt deploy",
+    "serve": "http-server -p 8082 .\\spress-site\\build",
     "analysis": "./node_modules/.bin/list-selectors spress-site/src/assets/css/main.css --pretty --include selectors,simple,classes,ids,attributes,types"
   }
 }
