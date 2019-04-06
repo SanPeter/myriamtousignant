@@ -3,7 +3,7 @@ title: Peintures &#8211; Production 2015 / 2016
 layout: _projets
 year: 2016
 previouslink: /projects/peintures-production-2010-2015/
-nextlink: 
+nextlink: /projects/studios-ephemeres/
 slides:
   - /wp-content/uploads/2016/10/fac-2016/fac-2016-1.jpg
   - /wp-content/uploads/2016/10/fac-2016/fac-2016-2.jpg
