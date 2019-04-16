@@ -7,7 +7,7 @@ nextlink:
 slides:
   - /wp-content/uploads/2019/04/maskipeche/1-MTousignant.jpg  
   - /wp-content/uploads/2019/04/maskipeche/2-MTousignant.jpg  
-  - /wp-content/uploads/2019/04/maskipeche/3-MTousignant.jpg  
+  - /wp-content/uploads/2019/04/maskipeche/3-Mtousignant.jpg  
   - /wp-content/uploads/2019/04/maskipeche/4-MTousignant.jpg  
   - /wp-content/uploads/2019/04/maskipeche/5-MTousignant.jpg  
   - /wp-content/uploads/2019/04/maskipeche/6-MTousignant.jpg  
