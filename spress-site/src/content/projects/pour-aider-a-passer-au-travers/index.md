@@ -2,7 +2,7 @@
 title: Pour aider à passer au travers
 layout: _projets
 year: 2019
-previouslink: /projects/pour-aider-a-passer-au-travers/
+previouslink: /projects/maskipeche/
 nextlink: 
 slides:
   - /wp-content/uploads/2019/04/maskipeche/1-MTousignant.jpg  
