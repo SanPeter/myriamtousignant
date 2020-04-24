@@ -2,19 +2,20 @@
   "name": "myriamtousignant-com",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-stylus": "^1.2.0",
-    "http-server": "^0.9.0",
     "list-selectors": "^2.0.0"
   },
   "scripts": {
     "generate": "php .\\spress-site\\vendor\\spress\\spress\\bin\\spress site:build --source=\".\\spress-site\" && grunt generate",
     "deploy": "php .\\spress-site\\vendor\\spress\\spress\\bin\\spress site:build --source=\".\\spress-site\" && grunt deploy",
-    "serve": "http-server -p 8080 .\\spress-site\\build",
-    "test": "http-server -p 8080 .\\docs",
+    "serve": "live-server .\\spress-site\\build",
+    "test": "live-server -p 8080 .\\docs",
     "analysis": "./node_modules/.bin/list-selectors spress-site/src/assets/css/main.css --pretty --include selectors,simple,classes,ids,attributes,types"
   }
 }
