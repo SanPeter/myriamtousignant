@@ -5,7 +5,23 @@ year: 2020
 previouslink: /projects/maskipeche/
 nextlink: 
 slides:
-  - /wp-content/uploads/2020/04/pour-passer-au-travers/pour-passer-au-travers-cover.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour24_8avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour25_9avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour26_10avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour27_11avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour28_12avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour29_13avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour30_14avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour31_15avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour32_16avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour33_17avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour34_18avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour35_19avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour36_20avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour37_21avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour38_22avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour39_23avril.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour40_24avril.jpg
 ---
 <div class="one_half">
   <h3>Poésie quotidienne/Pour passer au travers</h3>
