@@ -34,6 +34,13 @@ slides:
   - /wp-content/uploads/2020/04/pour-passer-au-travers/jour50_4mai.jpg
   - /wp-content/uploads/2020/04/pour-passer-au-travers/jour51_5mai.jpg
   - /wp-content/uploads/2020/04/pour-passer-au-travers/jour52_6mai.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour53_7mai.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour54_8mai.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour55_9mai.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour56_10mai.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour57_11mai.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour59_13mai.jpg
+  - /wp-content/uploads/2020/04/pour-passer-au-travers/jour60_14mai.jpg
 ---
 <div class="one_half">
   <h3>Poésie quotidienne/Pour passer au travers</h3>
