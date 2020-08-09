@@ -6,6 +6,7 @@ previouslink:
 nextlink: /projects/pour-passer-au-travers/
 slides:
   - /wp-content/uploads/2020/08/diffuser-confinee/image_accueil_residence.jpg
+  - /wp-content/uploads/2020/08/diffuser-confinee/_DSC3066.jpg
   - /wp-content/uploads/2020/08/diffuser-confinee/1-MTousignant.jpg
 ---
 
