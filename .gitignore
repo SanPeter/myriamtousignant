@@ -3,4 +3,4 @@ spress-site/vendor/
 spress-site/build/
 
 package-lock.json
-spress-site/composer.lock
+spress-site/composer.*
