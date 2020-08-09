@@ -7,6 +7,15 @@ nextlink: /projects/pour-passer-au-travers/
 slides:
   - /wp-content/uploads/2020/08/diffuser-confinee/image_accueil_residence.jpg
   - /wp-content/uploads/2020/08/diffuser-confinee/DSC3066.jpg
+  - /wp-content/uploads/2020/08/diffuser-confinee/DSC3068.jpg
+  - /wp-content/uploads/2020/08/diffuser-confinee/DSC3070.jpg
+  - /wp-content/uploads/2020/08/diffuser-confinee/DSC3072.jpg
+  - /wp-content/uploads/2020/08/diffuser-confinee/DSC3073.jpg
+  - /wp-content/uploads/2020/08/diffuser-confinee/DSC3075.jpg
+  - /wp-content/uploads/2020/08/diffuser-confinee/DSC3076.jpg
+  - /wp-content/uploads/2020/08/diffuser-confinee/DSC3077.jpg
+  - /wp-content/uploads/2020/08/diffuser-confinee/DSC3078.jpg
+  - /wp-content/uploads/2020/08/diffuser-confinee/DSC3081.jpg
   - /wp-content/uploads/2020/08/diffuser-confinee/1-MTousignant.jpg
 ---
 
