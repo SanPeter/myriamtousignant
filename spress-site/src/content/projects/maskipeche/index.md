@@ -2,8 +2,8 @@
 title: Maskipêche oeuvre installative
 layout: _projets
 year: 2019
-previouslink: /projects/studios-ephemeres/
-nextlink: /projects/pour-passer-au-travers/
+previouslink: /projects/pour-passer-au-travers/
+nextlink: /projects/studios-ephemeres/
 slides:
   - /wp-content/uploads/2019/04/maskipeche/1-MTousignant.jpg  
   - /wp-content/uploads/2019/04/maskipeche/2-MTousignant.jpg  

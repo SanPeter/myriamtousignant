@@ -1,8 +1,8 @@
 ---
 title: Le Bestiaire
 year: 2010
-previouslink: /projects/le-corps-pictural/
-nextlink: /projects/portraits-de-femmes-liens-sacres/
+previouslink: /projects/portraits-de-femmes-liens-sacres/
+nextlink: /projects/le-corps-pictural/
 slides:
   - /wp-content/uploads/2013/05/Bestiaire-9.png
   - /wp-content/uploads/2013/05/Bestiaire-3.png

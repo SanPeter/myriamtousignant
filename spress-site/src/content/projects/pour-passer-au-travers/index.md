@@ -2,8 +2,8 @@
 title: Pour passer au travers
 layout: _projets
 year: 2020
-previouslink: /projects/maskipeche/
-nextlink: 
+previouslink: /projects/diffuser-confinee/
+nextlink: /projects/maskipeche/
 slides:
   - /wp-content/uploads/2020/04/pour-passer-au-travers/jour24_8avril.jpg
   - /wp-content/uploads/2020/04/pour-passer-au-travers/jour25_9avril.jpg

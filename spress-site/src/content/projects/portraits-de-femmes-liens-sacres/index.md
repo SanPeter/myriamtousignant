@@ -2,8 +2,8 @@
 title: Liens sacrés, Portraits de femmes / CDEx
 year: 2012
 layout: _projets
-previouslink: /projects/lebestiaire/
-nextlink: /projects/series-liens-sacres-portraits-de-femmes/
+previouslink: /projects/series-liens-sacres-portraits-de-femmes/
+nextlink: /projects/lebestiaire/
 slides:
   - /wp-content/uploads/2013/05/Ensemble-jaunes.png
   - /wp-content/uploads/2012/05/Ensemble-jaunes.png

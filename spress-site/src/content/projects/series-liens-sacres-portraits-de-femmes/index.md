@@ -1,8 +1,8 @@
 ---
 title: Séries &#8211; Liens sacrés, Portraits de femmes
 year: 2012
-previouslink: /projects/portraits-de-femmes-liens-sacres/
-nextlink: /projects/extase-a-emporter/
+previouslink: /projects/liens-sacres-portraits-de-femmes/
+nextlink: /projects/portraits-de-femmes-liens-sacres/
 layout: _projets
 ---
 <h2>Série motifs colombes</h2>

@@ -2,8 +2,8 @@
 title: Liens sacrés, Portraits de femmes / Zocalo
 year: 2013
 layout: _projets 
-previouslink: /projects/extase-a-emporter/
-nextlink: /projects/peintures-production-2010-2015/
+previouslink: /projects/peintures-production-2015-2016/ 
+nextlink: /projects/series-liens-sacres-portraits-de-femmes/
 slides:
   - /wp-content/uploads/2013/05/Web-zoc-2.png
   - /wp-content/uploads/2013/05/Web-4-zoc.png
