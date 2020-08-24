@@ -1,0 +1,85 @@
+{
+    "generator": {
+        "version": "3.0.0"
+    },
+    "site": {
+        "dependencies": {
+            "_biographie.twig": [
+                "biographie-demarche-2/index.md"
+            ],
+            "biographie-demarche-2/index.md": [],
+            "index.twig": [
+                "index.html"
+            ],
+            "index.html": [],
+            "_projets.twig": [
+                "livres-artiste/fanzines/index.md",
+                "livres-artiste/livre-maskipeche/index.md",
+                "livres-artiste/serie-formes/index.md",
+                "projects/convergence-disloquee/index.md",
+                "projects/diffuser-confinee/index.md",
+                "projects/extase-a-emporter/index.md",
+                "projects/le-corps-pictural/index.md",
+                "projects/lebestiaire/index.md",
+                "projects/liens-sacres-portraits-de-femmes/index.md",
+                "projects/maskipeche/index.md",
+                "projects/peintures-production-2010-2015/index.md",
+                "projects/peintures-production-2015-2016/index.md",
+                "projects/portraits-de-femmes-liens-sacres/index.md",
+                "projects/pour-passer-au-travers/index.md",
+                "projects/series-liens-sacres-portraits-de-femmes/index.md",
+                "projects/studios-ephemeres/index.md"
+            ],
+            "livres-artiste/fanzines/index.md": [],
+            "layout.twig": [
+                "livres-artiste/index.twig",
+                "projects/index.twig"
+            ],
+            "livres-artiste/index.twig": [],
+            "livres-artiste/livre-maskipeche/index.md": [],
+            "livres-artiste/serie-formes/index.md": [],
+            "_presse-2.twig": [
+                "presse-2/index.md"
+            ],
+            "presse-2/index.md": [],
+            "projects/convergence-disloquee/index.md": [],
+            "projects/diffuser-confinee/index.md": [],
+            "projects/extase-a-emporter/index.md": [],
+            "projects/index.twig": [],
+            "projects/le-corps-pictural/index.md": [],
+            "projects/lebestiaire/index.md": [],
+            "projects/liens-sacres-portraits-de-femmes/index.md": [],
+            "projects/maskipeche/index.md": [],
+            "projects/peintures-production-2010-2015/index.md": [],
+            "projects/peintures-production-2015-2016/index.md": [],
+            "projects/portraits-de-femmes-liens-sacres/index.md": [],
+            "projects/pour-passer-au-travers/index.md": [],
+            "projects/series-liens-sacres-portraits-de-femmes/index.md": [],
+            "projects/studios-ephemeres/index.md": [],
+            "_publications.twig": [
+                "publications/index.md"
+            ],
+            "publications/index.md": [],
+            "_post.twig": [
+                "posts/metier-artiste-lenvers-du-decor-de-jennifer-lupien.md",
+                "posts/metier-artiste-lenvers-du-decor-de-cynthia-dinan-mithcell.md",
+                "posts/metier-artiste-lenvers-du-decor-dandreanne-gagnon.md",
+                "posts/metier-artiste-lenvers-du-decor-demmanuel-galland.md",
+                "posts/metier-artiste-lenvers-du-decor-de-patsy-van-roost.md",
+                "posts/metier-artiste-lenvers-du-decor-de-julie-lequin.md",
+                "posts/metier-artiste-lenvers-du-decor-dandree-anne-dupuis-bourret.md",
+                "posts/metier-artiste-lenvers-du-decor-de-stanley-fevrier.md",
+                "posts/residence-zocalo.md"
+            ],
+            "posts/metier-artiste-lenvers-du-decor-de-jennifer-lupien.md": [],
+            "posts/metier-artiste-lenvers-du-decor-de-cynthia-dinan-mithcell.md": [],
+            "posts/metier-artiste-lenvers-du-decor-dandreanne-gagnon.md": [],
+            "posts/metier-artiste-lenvers-du-decor-demmanuel-galland.md": [],
+            "posts/metier-artiste-lenvers-du-decor-de-patsy-van-roost.md": [],
+            "posts/metier-artiste-lenvers-du-decor-de-julie-lequin.md": [],
+            "posts/metier-artiste-lenvers-du-decor-dandree-anne-dupuis-bourret.md": [],
+            "posts/metier-artiste-lenvers-du-decor-de-stanley-fevrier.md": [],
+            "posts/residence-zocalo.md": []
+        }
+    }
+}
