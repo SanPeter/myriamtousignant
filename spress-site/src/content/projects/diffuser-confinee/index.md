@@ -2,7 +2,7 @@
 title: Diffuser confiné.e
 year: 2020
 layout: _projets
-previouslink: 
+previouslink: /projects/fenetres-qui-parlent/ 
 nextlink: /projects/pour-passer-au-travers/
 slides:
   - /wp-content/uploads/2020/08/diffuser-confinee/image_accueil_residence.jpg

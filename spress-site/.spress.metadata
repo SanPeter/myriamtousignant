@@ -28,7 +28,8 @@
                 "projects/portraits-de-femmes-liens-sacres/index.md",
                 "projects/pour-passer-au-travers/index.md",
                 "projects/series-liens-sacres-portraits-de-femmes/index.md",
-                "projects/studios-ephemeres/index.md"
+                "projects/studios-ephemeres/index.md",
+                "projects/fenetres-qui-parlent/index.md"
             ],
             "livres-artiste/fanzines/index.md": [],
             "layout.twig": [
@@ -79,7 +80,8 @@
             "posts/metier-artiste-lenvers-du-decor-de-julie-lequin.md": [],
             "posts/metier-artiste-lenvers-du-decor-dandree-anne-dupuis-bourret.md": [],
             "posts/metier-artiste-lenvers-du-decor-de-stanley-fevrier.md": [],
-            "posts/residence-zocalo.md": []
+            "posts/residence-zocalo.md": [],
+            "projects/fenetres-qui-parlent/index.md": []
         }
     }
 }
