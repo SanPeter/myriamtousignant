@@ -6,6 +6,6 @@
     "minimum-stability": "dev",
     "require": {
         "spress/spress-installer": "2.1.*",
-        "spress/spress": "2.2.*"
+        "spress/spress": "3.0.*"
     }
 }
