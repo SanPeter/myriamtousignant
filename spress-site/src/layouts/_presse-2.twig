@@ -10,36 +10,76 @@ layout: 'layout'
 			<div id="pageHead">
 				<h1>{{ page.title }}</h1>
 			</div>
-			<div id="content" class="clearfix">
-				<div class="post type-post status-publish format-standard hentry category-presse-2 clearfix">	
-					<div class="press-icon"><img src="/img/web.png"/></div>	
-					<a href="https://www.youtube.com/watch?v=IJMwHNDeqhY&feature=youtu.be&fbclid=IwAR0j26NjH0tb-DW1U2ih10zyjfmEjQbRPISS5efTtfsnvE1bcDHwrfeoQOY">Les fenêtres qui parlent, une rencontre entre une œuvre et un lieu, Parcours en art public éphémère à Longueuil, du 12 au 23 août 2020.</a>			
-				</div>
-				<div class="post type-post status-publish format-standard hentry category-presse-2 clearfix">	
-					<div class="press-icon"><img src="/img/web.png"/></div>	
-					<a href="https://www.lecourrierdusud.ca/poesie-dans-la-ville-fenetres-sur-la-culture-locale/">Poésie dans la ville: fenêtres sur la culture locale</a>			
-				</div>
-				<div class="post type-post status-publish format-standard hentry category-presse-2 clearfix">	
-					<div class="press-icon"><img src="/img/web.png"/></div>	
-					<a href="https://ericbolduc.xyz/2020/07/03/myriam-tousignant-pour-passer-au-travers/">Myriam Tousignant — Pour passer au travers</a>			
-				</div>
-				<div class="post type-post status-publish format-standard hentry category-presse-2 clearfix">	
-					<div class="press-icon"><img src="/img/pdf.png"/></div>	
-					<a href="https://youtu.be/HluwZCaxuVQ">"Myriam Tousignant / Pour passer au travers" (version intégrale), Entrevue menée par Éric Bolduc, Consultant en communications et développement, mordu d'art</a>			
-				</div>
-				<div class="post type-post status-publish format-standard hentry category-presse-2 clearfix">	
-					<div class="press-icon"><img src="/img/pdf.png"/></div>	
-					<a href="/wp-content/uploads/2013/05/memoire-myriam-tousignant.pdf">Mémoire de création, Portraits de femmes, liens sacrés</a>			
-				</div>
-				<div class="post type-post status-publish format-standard hentry category-presse-2 clearfix">	
-					<div class="press-icon"><img src="/img/pdf.png"/></div>	
-					<a href="/wp-content/uploads/2013/05/commmtousignant2.pdf">Communiqué de presse Le Bestiaire 30/30/30</a>			
-				</div>				
-				<div class="post type-post status-publish format-standard hentry category-presse-2 clearfix">	
-					<div class="press-icon"><img src="/img/pdf.png"/></div>	
-					<a href="/wp-content/uploads/2013/05/15-1_cartonlecorpspicturalcaravanserail2009.pdf">Le corps pictural, carton invitation</a>			
-				</div>				
-			</div>		
+			<div id="v-container">
+				<press-list :links="links"></press-list>
+			</div>
+
+			{% verbatim %}
+			<script>
+				Vue.component('press-item', {
+					props: ["link"],
+					template: `<div class="post type-post status-publish format-standard hentry category-presse-2 clearfix">	
+								<div class="press-icon"><img :src="link.icon"/></div>	
+								<a href="link.href">{{link.text}}</a>			
+							</div>`
+				});
+
+				Vue.component('press-list', {
+					props: ["links"],
+					template: '<div id="content" class="clearfix"><press-item v-for="link in links" :key="link.id" :link="link"></press-item></div>'
+				});
+
+				new Vue({
+					el: "#v-container",
+					data: {
+						links: [
+							{ 
+								id: 1, 
+								href: "https://www.youtube.com/watch?v=IJMwHNDeqhY&feature=youtu.be&fbclid=IwAR0j26NjH0tb-DW1U2ih10zyjfmEjQbRPISS5efTtfsnvE1bcDHwrfeoQOY", 
+								text: "Les fenêtres qui parlent, une rencontre entre une œuvre et un lieu, Parcours en art public éphémère à Longueuil, du 12 au 23 août 2020",
+								icon: "/img/web.png"
+							},
+							{ 
+								id: 2, 
+								href: "https://www.lecourrierdusud.ca/poesie-dans-la-ville-fenetres-sur-la-culture-locale/", 
+								text: "Poésie dans la ville: fenêtres sur la culture locale",
+								icon: "/img/web.png"
+							},
+							{
+								id: 3, 
+								href: "https://ericbolduc.xyz/2020/07/03/myriam-tousignant-pour-passer-au-travers/", 
+								text: "Myriam Tousignant — Pour passer au travers",
+								icon: "/img/web.png"
+							},
+							{
+								id: 4, 
+								href: "https://youtu.be/HluwZCaxuVQ", 
+								text: "\"Myriam Tousignant / Pour passer au travers\" (version intégrale), Entrevue menée par Éric Bolduc, Consultant en communications et développement, mordu d'art",
+								icon: "/img/pdf.png"
+							},
+							{
+								id: 5, 
+								href: "/wp-content/uploads/2013/05/memoire-myriam-tousignant.pdf", 
+								text: "Mémoire de création, Portraits de femmes, liens sacrés",
+								icon: "/img/pdf.png"
+							},							
+							{
+								id: 6, 
+								href: "/wp-content/uploads/2013/05/commmtousignant2.pdf", 
+								text: "Communiqué de presse Le Bestiaire 30/30/30",
+								icon: "/img/pdf.png"
+							},
+														{
+								id: 7, 
+								href: "/wp-content/uploads/2013/05/15-1_cartonlecorpspicturalcaravanserail2009.pdf", 
+								text: "Le corps pictural, carton invitation",
+								icon: "/img/pdf.png"
+							}		
+						]
+					}
+				});
+			</script>
+			{% endverbatim %}
 		</div>	
 		{% include ('_partial/_footer.twig') %}
 	</div>

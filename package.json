@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "nuxt": "^2.14.5"
   },
   "devDependencies": {
     "grunt": "^1.3.0",
@@ -12,7 +13,11 @@
     "list-selectors": "^2.0.0"
   },
   "scripts": {
-    "generate": "php .\\spress-site\\vendor\\spress\\spress\\bin\\spress site:build --source=\".\\spress-site\" && grunt generate",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "generate-spress": "php .\\spress-site\\vendor\\spress\\spress\\bin\\spress site:build --source=\".\\spress-site\" && grunt generate",
     "deploy": "php .\\spress-site\\vendor\\spress\\spress\\bin\\spress site:build --source=\".\\spress-site\" && grunt deploy",
     "serve": "live-server .\\spress-site\\build",
     "test": "live-server -p 8080 .\\docs",
