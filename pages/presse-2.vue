@@ -1,5 +1,46 @@
 <template>
   <div id="container" class="clearfix">
+    <header>
+      <h1><a href="/index.html">Myriam Tousignant</a></h1>
+    </header>    
+    <div id="header">
+      <div class="inside clearfix">
+
+        <div id="mainNav" class="clearfix">
+          <div class="menu-menu-principal-container">
+            <ul id="menu-menu-principal" class="">
+							<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Accueil</a></li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/projects/">Projets</a></li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/livres-artiste">Livres d'artiste</a></li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/publications/">Publications</a></li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/biographie-demarche-2/">Biographie &amp; démarche</a></li>
+							<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/presse-2/">Presse</a></li>
+            </ul>
+          </div>
+        </div>	
+
+        <div class="navbar">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="mini-nav-button-line"></span>
+            <span class="mini-nav-button-line"></span>
+            <span class="mini-nav-button-line"></span>
+          </button>
+          <div class="nav-collapse collapse">	
+            <div class="menu-menu-principal-container">
+              <ul id="menu-menu-principal-1" class="menu">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/">Accueil</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/projects/">Projets</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/livres-artiste">Livres d'artiste</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/publications/">Publications</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/biographie-demarche-2/">Biographie &amp; démarche</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/presse-2/">Presse</a></li>
+              </ul>
+            </div>
+          </div><!-- end of .nav-collapse -->
+        </div><!-- end of .navbar -->	
+
+      </div>	
+    </div>    
     <div id="main" class="clearfix">
       <div id="pageHead">
 				<h1>Presse</h1>
