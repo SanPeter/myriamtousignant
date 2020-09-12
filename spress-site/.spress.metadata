@@ -40,7 +40,9 @@
             "livres-artiste/livre-maskipeche/index.md": [],
             "livres-artiste/serie-formes/index.md": [],
             "_presse-2.twig": [
-                "presse-2/index.md"
+                "presse-2/index.md",
+                "presse-2/_index.md",
+                "_presse-2/index.md"
             ],
             "presse-2/index.md": [],
             "projects/convergence-disloquee/index.md": [],
@@ -81,7 +83,9 @@
             "posts/metier-artiste-lenvers-du-decor-dandree-anne-dupuis-bourret.md": [],
             "posts/metier-artiste-lenvers-du-decor-de-stanley-fevrier.md": [],
             "posts/residence-zocalo.md": [],
-            "projects/fenetres-qui-parlent/index.md": []
+            "projects/fenetres-qui-parlent/index.md": [],
+            "presse-2/_index.md": [],
+            "_presse-2/index.md": []
         }
     }
 }

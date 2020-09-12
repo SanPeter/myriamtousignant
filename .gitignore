@@ -1,4 +1,7 @@
 node_modules/
+.nuxt 
+dist
+static/*
 spress-site/vendor/
 spress-site/build/
 spress-ite/.spress.metadata
