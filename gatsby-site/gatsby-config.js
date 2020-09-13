@@ -5,6 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  pathPrefix: "/presse-2",
+  plugins: [
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: { trackingId: "UA-79769053-2" },
+    },
+  ],
 }

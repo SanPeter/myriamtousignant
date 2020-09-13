@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/index.js"],"names":["Home"],"mappings":"2FAAA,wEAEe,SAASA,IACtB,OAAO","file":"component---src-pages-index-js-8637881cd38cc251f29c.js","sourcesContent":["import React from \"react\"\r\n\r\nexport default function Home() {\r\n  return <h1>Presse</h1>\r\n}\r\n"],"sourceRoot":""}
