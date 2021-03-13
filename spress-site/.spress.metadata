@@ -30,7 +30,8 @@
                 "projects/series-liens-sacres-portraits-de-femmes/index.md",
                 "projects/studios-ephemeres/index.md",
                 "projects/fenetres-qui-parlent/index.md",
-                "projects/poesie-quotidienne/index.md"
+                "projects/poesie-quotidienne/index.md",
+                "projects/petites-mains/index.md"
             ],
             "livres-artiste/fanzines/index.md": [],
             "layout.twig": [
@@ -83,7 +84,8 @@
             "posts/metier-artiste-lenvers-du-decor-de-stanley-fevrier.md": [],
             "posts/residence-zocalo.md": [],
             "projects/fenetres-qui-parlent/index.md": [],
-            "projects/poesie-quotidienne/index.md": []
+            "projects/poesie-quotidienne/index.md": [],
+            "projects/petites-mains/index.md": []
         }
     }
 }

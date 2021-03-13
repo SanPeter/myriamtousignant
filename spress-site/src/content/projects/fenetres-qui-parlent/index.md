@@ -2,7 +2,7 @@
 title: Les fenêtres qui parlent
 year: 2020
 layout: _projets
-previouslink: 
+previouslink: /projects/petites-mains/
 nextlink: /projects/diffuser-confinee/
 slides:
   - /wp-content/uploads/2020/09/fenetres-qui-parlent/1-image_couveture_projet_resized.jpg
