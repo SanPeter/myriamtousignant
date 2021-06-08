@@ -2,7 +2,7 @@
 title: Petites mains
 year: 2021
 layout: _projets
-previouslink: 
+previouslink:
 nextlink: /projects/fenetres-qui-parlent/
 slides:
   - /wp-content/uploads/2021/03/petites-mains-1.jpg
@@ -10,6 +10,7 @@ slides:
   - /wp-content/uploads/2021/03/petites-mains-3.jpg
   - /wp-content/uploads/2021/03/petites-mains-4.jpg
 ---
+
 <div class="one_half">
 <h3> « Petites mains » / Projet en cours de réalisation</h3>
 
@@ -21,5 +22,5 @@ slides:
 
 <p>Mon objectif est qu'il émerge de ce processus des portraits de femmes intéressants qui témoignent de leur identité culturelle commune et convoque à vivre une expérience artistique. En terminant, je tiens à remercier le Conseil des arts et des lettres du Québec de son appui financier.</p>
 <br/>
-<a href="https://www.calq.gouv.qc.ca" target="_blank">CALQ</a>
+<a href="https://www.calq.gouv.qc.ca" target="_blank"><img src="/wp-content/uploads/2021/03/calq_logo.jpg" alt="CALQ" title="CALQ"/></a>
 </div>
